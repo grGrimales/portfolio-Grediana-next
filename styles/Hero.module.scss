@@ -1,0 +1,104 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+
+
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @include large {
+        justify-content: space-evenly;
+    }
+
+}
+
+.description {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    @include medium {
+        width: 85%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @include large {
+        width: 75%;
+
+    }
+}
+
+
+.description__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    padding: 1rem;
+
+
+    @include medium {
+        margin-top: 0;
+    }
+
+    span {
+        color: $color-title;
+        margin: 0;
+
+    }
+
+    h2 {
+        max-width: 25rem;
+        font-size: 2.81rem;
+        font-weight: 700;
+        color: $color-complemantary;
+        margin: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 0;
+    }
+
+    button {
+        padding: 4px 40px;
+        margin-top: 2.5rem;
+        font-size: 1.12rem;
+        font-weight: 600;
+        border: none;
+        background: transparent;
+        border: 1px solid $color-complemantary;
+        color: $color-complemantary;
+        cursor: pointer;
+        transition: border 500ms;
+        align-self: flex-start;
+
+        @include medium {
+            padding: 10px 40px;
+        }
+
+        &:hover {
+            background-color: $color-complemantary;
+            color: $color-title;
+        }
+
+
+    }
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+
+    @include medium {
+        justify-content: flex-end;
+
+    }
+}

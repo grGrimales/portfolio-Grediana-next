@@ -1,0 +1,45 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+.section {
+  background-color: $color-principal;
+
+  @include medium {
+    padding: 0 3rem;
+
+  }
+
+}
+
+
+// About Me
+
+.aboutMe {
+  background-color: $color-secundario;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+
+.aboutMe__image {
+  content: '';
+
+  ::before {
+
+    border: 5px solid red;
+  }
+}
+
+.aboutMe__description {
+  display: flex;
+  flex: 1;
+  padding: 2rem;
+  flex-direction: column;
+
+  p {
+    color: $color-title;
+  }
+
+}
