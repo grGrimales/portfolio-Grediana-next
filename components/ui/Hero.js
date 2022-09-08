@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className={styles.description__text}>
             <span>Hola</span>
 
-            <h2>Soy Grediana</h2>
+            <h1>Soy Grediana</h1>
             <p>Developer FrontEnd - Design FrontEnd</p>
             <button type="button" className={styles["cover__btn"]}>
               Contáctame

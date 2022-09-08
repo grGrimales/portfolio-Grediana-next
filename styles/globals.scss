@@ -1,4 +1,6 @@
 @import './variables.module.scss';
+@import './mixins.module.scss';
+
 
 html,
 body {
@@ -28,5 +30,23 @@ a {
 h2 {
   color: $color-title;
   font-weight: 700;
+  font-size: 2.3rem;
+  text-align: center;  position: relative;
+  &::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 4px;
+    background:$color-complemantary;
+    transition: all 0.3s;
+    margin: -10px auto;;
+  }
+
+  @include medium{
   font-size: 2.8rem;
+
+  }
 }

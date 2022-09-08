@@ -4,7 +4,6 @@ import Link from "next/link";
 
 import styles from "../../styles/Navbar.module.scss";
 import { ActiveLink } from "./ActiveLink";
-import { Hero } from "./Hero";
 
 export const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -43,7 +42,7 @@ export const Navbar = () => {
         <div className={styles["container__header"]}>
           <div className={styles.logo}>
             <Link href="/">
-              <h2>Grediana</h2>
+              <h3>Grediana</h3>
             </Link>
 
             <div className={styles["header__icon"]} onClick={handleClick}>
