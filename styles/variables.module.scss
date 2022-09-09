@@ -1,6 +1,7 @@
 /*Colores*/
 $color-principal: #2F2F2F;
 $color-secundario: #2A2A2A;
+$color-terciario: #444444;
 $color-title: #f5f5f5;
 
 
@@ -17,6 +18,7 @@ $color-btn: #52b69a;
 :export {
     $color-principal: $color-principal;
     $color-secundario: $color-secundario;
+    $color-terciario: $color-terciario;
     $color-title: $color-title;
     $color-btn: $color-btn;
 

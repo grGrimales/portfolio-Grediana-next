@@ -57,18 +57,22 @@ export const Navbar = () => {
                   click ? styles.activeUl : ""
                 }`}
               >
+                {/* <li>
+                  <ActiveLink link="/#hero" text="Inicio" />
+                </li> */}
                 <li>
-                  <ActiveLink link="/" text="Inicio" />
-                </li>
-                <li>
-                  <ActiveLink link="/creations" text="Creaciones" />
+                  <ActiveLink link="/#aboutMe" text="Sobre mi" />
                 </li>
 
                 <li>
-                  <ActiveLink link="/aboutUs" text="Nosotros" />
+                  <ActiveLink link="/#skills" text="Herramientas" />
                 </li>
                 <li>
-                  <ActiveLink link="/contact" text="Contacto" />
+                  <ActiveLink link="/#formation" text="Formación" />
+                </li>
+
+                <li>
+                  <ActiveLink link="/#portfolio" text="Proyectos" />
                 </li>
               </ul>
             </nav>

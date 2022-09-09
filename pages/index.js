@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <Layout title="Gediana Rojas " description="Frontend Developer">
       {/* Hero */}
-      <section className={styles.section}>
+      <section id="hero" className={styles.section}>
         <Hero />
       </section>
 
       {/* About me */}
 
-      <section className={`${styles.section} ${styles.aboutMe}`}>
+      <section id="aboutMe" className={`${styles.section} ${styles.aboutMe}`}>
 
         <h2>About Me</h2>
 
@@ -54,7 +54,7 @@ export default function Home() {
 
       {/* Skills */}
 
-      <section className={`${styles.section} ${styles.skills}`}>
+      <section id="skills" className={`${styles.section} ${styles.skills}`}>
         <h2>Herramientas</h2>
         <div className={styles.container}>
           <div className={styles.skills__content}>
@@ -250,73 +250,92 @@ export default function Home() {
 
       {/* Formation */}
 
-      <section className={`${styles.section} ${styles.formation}`}>
+      <section id="formation" className={`${styles.section} ${styles.formation}`}>
         <h2>Estudios</h2>
         <div className={`${styles.container} ${styles.formation__container}`}>
           <div className={styles.formation__all}>
             <div className={styles.formation__content}>
               <div className={styles.formation__data}>
+                <div className={styles.formation__period}>
+                  <p>Octubre 20021 - Abril 2022</p>
+                </div>
                 <div>
+                  <span className={styles.formation__circle}></span>
+                  <span className={styles.formation__line}></span>
+
+                </div>
+                <div className={styles.formation__description}>
                   <h3 className={styles.formation__name}>Frontend Developer</h3>
                   <span className={styles.formation__academy}>CoderHouse</span>
-                  <div className={styles.formation__date}>
+                  <div className={styles.formation__details}>
+                    <ul>
+                      <li><i class="fa-solid fa-check"></i> HTML</li>
+                      <li> <i class="fa-solid fa-check"></i> CSS </li>
+                      <li><i class="fa-solid fa-check"></i>JavaScript </li>
+
+
+
+   
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className={styles.formation__data}>
+                <div className={styles.formation__period}>
+                  <p>Octubre 20021 - Abril 2022</p>
+                </div>
+                <div>
+                  <span className={styles.formation__circle}></span>
+                  <span className={styles.formation__line}></span>
+
+                </div>
+                <div className={styles.formation__description}>
+                  <h3 className={styles.formation__name}>Frontend Developer</h3>
+                  <span className={styles.formation__academy}>CoderHouse</span>
+                  <div className={styles.formation__details}>
                     <p>2021 - 2022</p>
                   </div>
                 </div>
-                <div>
-                  <span className={styles.formation__circle}></span>
-                  <span className={styles.formation__line}></span>
 
-                </div>
               </div>
 
               <div className={styles.formation__data}>
-                <div></div>
+                <div className={styles.formation__period}>
+                  <p>Octubre 20021 - Abril 2022</p>
+                </div>
                 <div>
                   <span className={styles.formation__circle}></span>
                   <span className={styles.formation__line}></span>
 
                 </div>
-                <div>
-                  <h3 className={styles.formation__name}>Next.js</h3>
-                  <span className={styles.formation__academy}>Udemy</span>
-                  <div className={styles.formation__date}>
-                    <p> 2022</p>
+                <div className={styles.formation__description}>
+                  <h3 className={styles.formation__name}>Frontend Developer</h3>
+                  <span className={styles.formation__academy}>CoderHouse</span>
+                  <div className={styles.formation__details}>
+                    <p>2021 - 2022</p>
                   </div>
                 </div>
-               
+
               </div>
 
               <div className={styles.formation__data}>
-                <div>
-                  <h3 className={styles.formation__name}>Next.js</h3>
-                  <span className={styles.formation__academy}>Udemy</span>
-                  <div className={styles.formation__date}>
-                    <p> 2022</p>
-                  </div>
+                <div className={styles.formation__period}>
+                  <p>Octubre 20021 - Abril 2022</p>
                 </div>
                 <div>
                   <span className={styles.formation__circle}></span>
-                  <span className={styles.formation__line}></span>
 
                 </div>
-              </div>
-
-              <div className={styles.formation__data}>
-                <div></div>
-                <div>
-                  <span className={styles.formation__circle}></span>
-                  <span className={styles.formation__line}></span>
-
-                </div>
-                <div>
-                  <h3 className={styles.formation__name}>Next.js</h3>
-                  <span className={styles.formation__academy}>Udemy</span>
-                  <div className={styles.formation__date}>
-                    <p> 2022</p>
+                <div className={styles.formation__description}>
+                  <h3 className={styles.formation__name}>Frontend Developer</h3>
+                  <span className={styles.formation__academy}>CoderHouse</span>
+                  <div className={styles.formation__details}>
+                    <p>2021 - 2022</p>
                   </div>
                 </div>
-               
+
               </div>
             </div>
           </div>
