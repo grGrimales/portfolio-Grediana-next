@@ -269,9 +269,9 @@ export default function Home() {
                   <span className={styles.formation__academy}>CoderHouse</span>
                   <div className={styles.formation__details}>
                     <ul>
-                      <li><i class="fa-solid fa-check"></i> HTML</li>
-                      <li> <i class="fa-solid fa-check"></i> CSS </li>
-                      <li><i class="fa-solid fa-check"></i>JavaScript </li>
+                      <li><i className="fa-solid fa-check"></i> HTML</li>
+                      <li> <i className="fa-solid fa-check"></i> CSS </li>
+                      <li><i className="fa-solid fa-check"></i>JavaScript </li>
 
 
 
