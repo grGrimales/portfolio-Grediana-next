@@ -17,6 +17,15 @@
 
 }
 
+.container{
+  max-width: 968px;
+  margin: 0 auto;
+
+  @include medium{
+    max-width: 1280px;
+  }
+}
+
 
 // About Me
 
@@ -42,39 +51,17 @@
 
   @include medium {
     flex-direction: row-reverse;
-    justify-content: space-evenly;
   }
 
 
 }
 
-.aboutMe__image {
-  max-width: 50%;
-  position: relative;
 
- /* &::before{
-    content: "";
-    position: absolute;
-    border: 4px solid red;
-    width: 93%;
-    height: 11rem;
-    transform: translate(-56px, 34px);
-   
-   @include medium{
-    transform: translate(-56px, 34px);
-    height: 16rem;
-
-    }
-
-  }*/
-
-}
 
 .aboutMe__description {
   padding: 1rem;
-
+ flex: 1;
   @include medium {
-    max-width: 50%;
     padding: 0;
 
   }
@@ -134,7 +121,6 @@
 
 .skills__content{
   display: grid;
-//  justify-items: center;
 
   @include medium{
     grid-template-columns: repeat(2, 1fr);
@@ -206,4 +192,63 @@ align-items: flex-end;
 
 .skills__bootstrap{
   width: 75%;
+}
+
+/*formation*/
+
+.formation{
+  padding-top: 1rem;
+  background-color: $color-secundario;
+}
+.formation__container{
+  //padding: .3rem;
+}
+
+.formation__all{
+  display: grid;
+  grid-template-columns: .6fr;
+  justify-content: center;
+}
+
+.formation__content{
+  display: block;
+}
+
+.formation__data{
+  display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.formation__name{
+  color: $color-title;
+  font-size: 1.3rem;
+}
+
+.formation__academy{
+  display: inline-block;
+  font-size: 1rem;
+color: #e9ecef;
+
+}
+
+.formation__date{
+font-size: 1rem;
+color: #e9ecef;
+}
+
+.formation__circle{
+  display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color:$color-complemantary;
+    border-radius: 50%;
+}
+
+.formation__line{
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: $color-complemantary;
+  transform: translate(6px, -7px);
 }
