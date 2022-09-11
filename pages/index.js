@@ -349,7 +349,7 @@ export default function Home() {
         <div className={`${styles.container} `}>
 <div className={styles.services__content}>
 <div className={styles.services__data}>
-            <span><i class="fa-light fa-laptop-code"></i></span>
+            <span><i className="fa-light fa-laptop-code"></i></span>
             <h3> Desarrollo de aplicaciones web</h3>
             <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
 
@@ -358,7 +358,7 @@ export default function Home() {
           <div className={styles.services__data}>
          <span> 
           
-           <i class="fa-regular fa-sidebar"></i>
+           <i className="fa-regular fa-sidebar"></i>
           
           </span>  
    
