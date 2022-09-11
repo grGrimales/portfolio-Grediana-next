@@ -18,7 +18,7 @@ export const Hero = () => {
           </div>
 
           <div className={styles.containerImg}>
-            <Image width={500} height={700} src={"/images/header2.png"} />
+            <Image width={351} height={492} src={"/images/header13.png"} />
           </div>
         </div>
       </div>

@@ -135,6 +135,9 @@
   flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
+ 
+
+
 }
 
 
@@ -162,6 +165,11 @@
   border-radius: 0.25rem;
   background-color: #e9ecef;
 
+
+
+    
+
+
 }
 
 .skills__percent {
@@ -169,6 +177,7 @@
   border-radius: 0.25rem;
   display: block;
   background-color: $color-complemantary;
+  
 }
 
 .skills__figma,
@@ -177,6 +186,13 @@
 .skills__js,
 .skills__react {
   width: 85%;
+  animation: myAnim 2s linear;
+
+  &:active{
+
+    animation: myAnim 2s linear;
+
+  }
 }
 
 .skills__canva,
@@ -195,6 +211,29 @@
   width: 75%;
 }
 
+
+@keyframes myAnim {
+  0% {
+		width: 10%;
+	}
+
+  25%{
+		width: 20%;
+
+  }
+  25%{
+		width: 40%;
+
+  }
+
+	100% {
+    width: 85%;
+
+	}
+
+}
+
+
 /*formation*/
 
 .formation {
@@ -205,8 +244,12 @@
 .formation__container {
 padding-bottom: 6rem;
 }
+
 .formation__all {
   padding: 2rem;
+  @include medium{
+    padding: 0;
+  }
 
 }
 
@@ -260,6 +303,7 @@ padding-bottom: 6rem;
     padding: 0;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   li{
     list-style: none;
@@ -289,4 +333,38 @@ padding-bottom: 6rem;
    
   }
 
+}
+
+/*Services*/
+
+.services {
+  background-color: $color-principal;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.services__content{
+  display: flex;
+ flex-direction: column;
+ padding: 1rem;
+ gap: 1rem;
+
+
+ @include medium{
+  flex-direction: row;
+ }
+}
+.services__data{
+ 
+  background-color: $color-terciario;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-title;
+  border: 3px solid #777777;
+  padding: .5rem;
+
+  &:hover{
+  border: 3px solid $color-complemantary;
+
+  }
 }

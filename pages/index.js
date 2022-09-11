@@ -40,9 +40,9 @@ export default function Home() {
           </div>
           <div className={styles.aboutMe__image}>
             <Image
-              src={"/images/aboutMe2.png"}
-              width="240"
-              height={290}
+              src={"/images/aboutMe4.png"}
+              width="250"
+              height={400}
               alt="Grediana"
             />
           </div>
@@ -269,13 +269,13 @@ export default function Home() {
                   <span className={styles.formation__academy}>CoderHouse</span>
                   <div className={styles.formation__details}>
                     <ul>
-                      <li><i className="fa-solid fa-check"></i> HTML</li>
-                      <li> <i className="fa-solid fa-check"></i> CSS </li>
-                      <li><i className="fa-solid fa-check"></i>JavaScript </li>
+                      <li><i className="fa-solid fa-check"></i> Desarrollo Web</li>
+                      <li> <i className="fa-solid fa-check"></i> JavaScript </li>
+                      <li><i className="fa-solid fa-check"></i>React </li>
 
 
 
-   
+
                     </ul>
                   </div>
                 </div>
@@ -339,6 +339,36 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Services */}
+      <section id="formation" className={`${styles.section} ${styles.services}`}>
+        <h2>Servicios</h2>
+
+        <div className={`${styles.container} `}>
+<div className={styles.services__content}>
+<div className={styles.services__data}>
+            <span><i class="fa-light fa-laptop-code"></i></span>
+            <h3> Desarrollo de aplicaciones web</h3>
+            <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
+
+          </div>
+
+          <div className={styles.services__data}>
+         <span> 
+          
+           <i class="fa-regular fa-sidebar"></i>
+          
+          </span>  
+   
+            <h3> Diseño de aplicaciones web</h3>
+            <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
+
+          </div>
+</div>
+   
+
         </div>
       </section>
     </Layout>
