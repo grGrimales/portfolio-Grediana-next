@@ -30,7 +30,7 @@ export const Layout = ({ children, title = "Decomood", description }) => {
         <meta property="og:image" content={`${origin}/images/logo.png`} />
         <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         />
       </Head>
 

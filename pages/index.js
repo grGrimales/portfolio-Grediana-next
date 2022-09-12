@@ -347,27 +347,92 @@ export default function Home() {
         <h2>Servicios</h2>
 
         <div className={`${styles.container} `}>
-<div className={styles.services__content}>
-<div className={styles.services__data}>
-            <span><i className="fa-light fa-laptop-code"></i></span>
-            <h3> Desarrollo de aplicaciones web</h3>
-            <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
+          <div className={styles.services__content}>
+            <div className={styles.services__data}>
+              <span><i class="fa-solid fa-laptop-code"></i>
+              </span>
 
+              <h3> Desarrollo de aplicaciones web</h3>
+              <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
+
+            </div>
+
+            <div className={styles.services__data}>
+              <span><i class="fa-solid fa-tablet-screen-button"></i></span>
+
+
+              <h3> Diseño de aplicaciones web</h3>
+              <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
+
+            </div>
           </div>
 
-          <div className={styles.services__data}>
-         <span> 
-          
-           <i className="fa-regular fa-sidebar"></i>
-          
-          </span>  
-   
-            <h3> Diseño de aplicaciones web</h3>
-            <p>¡Burke, qué carga de basura, joven delincuente, matie boy, un tiro cegador, caballo, juego, cuppa, viejo, viento, bevvy!</p>
 
+        </div>
+      </section>
+
+      {/* Projects */}
+      <section id="projects" className={`${styles.section} ${styles.projects}`}>
+        <h2>Últimos Trabajos</h2>
+        <div className={styles.filters}>
+          <span className={`${styles.filters__active} ${styles.filters__item}`}>Todos</span>
+          <span className={styles.filters__item}>React.js</span>
+          <span className={styles.filters__item}>Next.js</span>
+          <span className={styles.filters__item}>Diseño</span>
+
+        </div>
+        <div className={`${styles.container} ${styles.projects__list} `}>
+          <div className={styles.projectItem}>
+            <Image src={'/images/gre.jpg'} alt='image' width={200} height={200} />
+            <div className={styles.projectItem__description}>
+              <h3>Title Project</h3>
+              <span>  <i class="fa-solid fa-circle-info"></i></span>
+
+            </div>
+            <div className={styles.projectItem__links}>
+              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+
+            </div>
           </div>
-</div>
-   
+
+          <div className={styles.projectItem}>
+            <Image src={'/images/gre.jpg'} alt='image' width={200} height={200} />
+            <div className={styles.projectItem__description}>
+              <h3>Title Project</h3>
+              <span>  <i class="fa-solid fa-circle-info"></i></span>
+
+            </div>
+            <div className={styles.projectItem__links}>
+              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+
+            </div>
+          </div>   <div className={styles.projectItem}>
+            <Image src={'/images/gre.jpg'} alt='image' width={200} height={200} />
+            <div className={styles.projectItem__description}>
+              <h3>Title Project</h3>
+              <span>  <i class="fa-solid fa-circle-info"></i></span>
+
+            </div>
+            <div className={styles.projectItem__links}>
+              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+
+            </div>
+          </div>
+          <div className={styles.projectItem}>
+             <Image src={'/images/gre.jpg'} alt='image' width={200} height={200} />
+              <div className={styles.projectItem__description}>
+                <h3>Title Project</h3>
+              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              </div>
+              <div className={styles.projectItem__links}>
+                <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
+                <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+
+              </div>
+          </div>
 
         </div>
       </section>
