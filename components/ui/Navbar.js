@@ -72,7 +72,7 @@ export const Navbar = () => {
                 </li>
 
                 <li>
-                  <ActiveLink link="/#portfolio" text="Proyectos" />
+                  <ActiveLink link="/#projects" text="Proyectos" />
                 </li>
               </ul>
             </nav>
