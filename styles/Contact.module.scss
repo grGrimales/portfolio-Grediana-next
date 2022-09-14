@@ -1,0 +1,117 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+
+
+.contact{
+    padding-top: 1rem;
+    background-color: $color-principal;
+}
+
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    @include medium{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+
+
+    h3{
+
+        color: #B7CCCC;
+    }
+
+    a{
+        color: #727B86;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+
+        i{
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.contact__redes{
+    display: flex;
+    flex-direction: column;
+  
+
+  
+}
+
+.redesContainer{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    a{
+    i{
+        font-size: 1.5rem;
+    }
+    
+    }
+}
+
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    color: #77776D;
+    font-size: 1.2rem;
+
+    label{
+        display: block;
+    }
+
+    input, textarea{
+        background-color: $color-terciario;
+        border: none;
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+.inputGroup{
+    display: flex;
+    gap: 2rem;
+}
+
+.btnForm{
+    padding: 13px 40px;
+    margin-top: 2.5rem;
+    font-size: 1.12rem;
+    font-weight: 400;
+    border: none;
+    background-color: $color-complemantary;
+
+    border: 1px solid $color-complemantary;
+    color: $color-title;
+
+    cursor: pointer;
+    transition: border 500ms;
+    border-radius: 0.3rem;
+    align-self: flex-start;
+  
+    @include medium {
+      padding: 10px 40px;
+      opacity: .9;
+    }
+  
+    &:hover {
+    background: transparent;
+
+    }
+}

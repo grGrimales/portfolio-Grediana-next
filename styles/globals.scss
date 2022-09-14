@@ -55,3 +55,31 @@ h2 {
 
   }
 }
+
+
+
+.section {
+  background-color: $color-principal;
+  width: 100%;
+
+  @include medium {
+    padding: 0 3rem;
+
+  }
+
+  @include large {
+    padding: 0 6rem;
+
+  }
+
+}
+
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+
+  @include medium {
+    max-width: 1280px;
+  }
+}

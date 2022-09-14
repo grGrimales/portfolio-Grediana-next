@@ -1,0 +1,125 @@
+
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+.skills {
+    background-color: $color-principal;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .skills__content {
+    display: grid;
+  
+    @include medium {
+      grid-template-columns: repeat(2, 1fr);
+  
+    }
+  }
+  
+  .skills__data {
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  
+  
+  
+  }
+  
+  
+  .skills__image {
+    display: flex;
+    align-items: flex-end;
+  
+  }
+  
+  
+  .skills__description {
+    flex: 1;
+  }
+  
+  .skills__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    color: $color-title;
+  }
+  
+  .skills__bar {
+    height: 5px;
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+  
+  
+  
+  
+  
+  
+  }
+  
+  .skills__percent {
+    height: 5px;
+    border-radius: 0.25rem;
+    display: block;
+    background-color: $color-complemantary;
+  
+  }
+  
+  .skills__figma,
+  .skills__css,
+  .skills__sass,
+  .skills__js,
+  .skills__react {
+    width: 85%;
+    animation: myAnim 2s linear;
+  
+    &:active {
+  
+      animation: myAnim 2s linear;
+  
+    }
+  }
+  
+  .skills__canva,
+  .skills__firebase,
+  .skills__git,
+  .skills__github {
+    width: 80%;
+  
+  }
+  
+  .skills__html {
+    width: 90%;
+  }
+  
+  .skills__bootstrap {
+    width: 75%;
+  }
+  
+  
+  @keyframes myAnim {
+    0% {
+      width: 10%;
+    }
+  
+    25% {
+      width: 20%;
+  
+    }
+  
+    25% {
+      width: 40%;
+  
+    }
+  
+    100% {
+      width: 85%;
+  
+    }
+  
+  }
+  
+  

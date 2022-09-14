@@ -1,0 +1,104 @@
+
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+
+.formation {
+    padding-top: 1rem;
+    background-color: $color-secundario;
+  }
+  
+  .formation__container {
+    padding-bottom: 6rem;
+  }
+  
+  .formation__all {
+    padding: 2rem;
+  
+    @include medium {
+      padding: 0;
+    }
+  
+  }
+  
+  .formation__content {
+    display: block;
+  
+  }
+  
+  .formation__data {
+    display: flex;
+  }
+  
+  .formation__period {
+    position: relative;
+    top: -22px;
+    left: -9px;
+    max-width: 5rem;
+  
+  
+  
+    p {
+      color: #cccccc;
+    }
+  }
+  
+  .formation__description {
+    background-color: $color-terciario;
+    width: 100%;
+    margin: 1rem;
+    padding: .5rem;
+  }
+  
+  
+  .formation__name {
+    color: $color-complemantary;
+    font-size: 1.3rem;
+  }
+  
+  .formation__academy {
+    display: inline-block;
+    font-size: 1rem;
+    color: $color-title;
+  
+  }
+  
+  .formation__details {
+    font-size: 1rem;
+    color: $color-title;
+  
+    ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    li {
+      list-style: none;
+    }
+  }
+  
+  .formation__circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: $color-complemantary;
+    border-radius: 50%;
+    box-shadow: 0px 14px 20px 0px rgb(254 193 16 / 40%);
+  
+    @include medium {}
+  
+  }
+  
+  .formation__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: $color-complemantary;
+    transform: translate(6px, -7px);
+  
+    @include medium {}
+  
+  }
+  

@@ -1,0 +1,43 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+
+.services {
+    background-color: $color-principal;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .services__content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  
+  
+    @include medium {
+      flex-direction: row;
+    }
+  }
+  
+  .services__data {
+  
+    background-color: $color-terciario;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-title;
+    border: 3px solid #777777;
+    padding: .5rem;
+  
+    &:hover {
+      border: 3px solid $color-complemantary;
+  
+    }
+  
+    span {
+      font-size: 2rem;
+    }
+  }
+  
+  
