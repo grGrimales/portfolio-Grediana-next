@@ -1,35 +1,24 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+
 .footer {
-    display: flex;
-    flex: 1;
     padding: 2rem 0;
     border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
+    background-color: $color-secundario;
+    color: $color-title;
 }
 
-.footer a {
+.footer__redes {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
 }
 
-
-
-
-
-@media (prefers-color-scheme: dark) {
-
-    .card,
-    .footer {
-        border-color: #222;
-    }
-
-    .code {
-        background: #111;
-    }
-
-    .logo img {
-        filter: invert(1);
-    }
+.redesContainer {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    color: #727B86;
 }
