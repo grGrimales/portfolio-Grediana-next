@@ -12,7 +12,7 @@ const style = {
 export const ActiveLink = ({ text, link }) => {
   const { asPath } = useRouter();
 
-  console.log(asPath, link, asPath == link)
+
   return (
     <Link href={link}>
       <a style={asPath == link ? style : undefined}> {text} </a>

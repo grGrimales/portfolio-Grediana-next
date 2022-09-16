@@ -23,12 +23,12 @@ export const Projects = () => {
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>
@@ -37,60 +37,60 @@ export const Projects = () => {
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>   <div className={styles.projectItem}>
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>   <div className={styles.projectItem}>
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>   <div className={styles.projectItem}>
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>   <div className={styles.projectItem}>
             <Image src={'/images/gre.jpg'} alt='image' width={250} height={200} />
             <div className={styles.projectItem__description}>
               <h3>Title Project</h3>
-              <span>  <i class="fa-solid fa-circle-info"></i></span>
+              <span>  <i className="fa-solid fa-circle-info"></i></span>
 
             </div>
             <div className={styles.projectItem__links}>
-              <a href="#" >Demo <i class="fa-solid fa-angles-right"></i> </a>
-              <a href="#" >Github <i class="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Demo <i className="fa-solid fa-angles-right"></i> </a>
+              <a href="#" >Github <i className="fa-solid fa-angles-right"></i> </a>
 
             </div>
           </div>
