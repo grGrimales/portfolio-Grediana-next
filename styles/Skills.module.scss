@@ -74,13 +74,9 @@
   .skills__js,
   .skills__react {
     width: 85%;
-    animation: myAnim 2s linear;
+    animation: myAnim2 5s linear;
   
-    &:active {
   
-      animation: myAnim 2s linear;
-  
-    }
   }
   
   .skills__canva,
@@ -88,19 +84,43 @@
   .skills__git,
   .skills__github {
     width: 80%;
-  
+    animation: myAnim 5s linear;
   }
   
   .skills__html {
     width: 90%;
+    animation: myAnim3 5s linear;
   }
   
   .skills__bootstrap {
     width: 75%;
+    animation: myAnim4 5s linear;
   }
   
   
   @keyframes myAnim {
+    0% {
+      width: 10%;
+    }
+  
+    25% {
+      width: 20%;
+  
+    }
+  
+    25% {
+      width: 40%;
+  
+    }
+  
+    100% {
+      width: 80%;
+  
+    }
+  
+  }
+  
+  @keyframes myAnim2 {
     0% {
       width: 10%;
     }
@@ -121,5 +141,48 @@
     }
   
   }
+
+    
+  @keyframes myAnim3 {
+    0% {
+      width: 10%;
+    }
   
+    25% {
+      width: 20%;
   
+    }
+  
+    25% {
+      width: 40%;
+  
+    }
+  
+    100% {
+      width: 90%;
+  
+    }
+  
+  }
+
+  @keyframes myAnim4 {
+    0% {
+      width: 10%;
+    }
+  
+    25% {
+      width: 20%;
+  
+    }
+  
+    25% {
+      width: 40%;
+  
+    }
+  
+    100% {
+      width: 70%;
+  
+    }
+  
+  }

@@ -1,5 +1,5 @@
-
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from '../../styles/AboutMe.module.scss'
 
@@ -25,9 +25,12 @@ export const AboutMe = () => {
           <button type="button" className={styles.containerBtn__cv}>
             Dowload Cv
           </button>
+
+          <Link href='/#projects'>
           <button type="button" className={styles.containerBtn__projects}>
             Proyectos
           </button>
+          </Link>
         </div>
 
       </div>

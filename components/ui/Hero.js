@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "../../styles/Hero.module.scss";
 
@@ -12,9 +13,13 @@ export const Hero = () => {
 
             <h1>Soy Grediana</h1>
             <p>Developer FrontEnd - Design FrontEnd</p>
+            <Link href='/#contact'>
             <button type="button" className={styles["cover__btn"]}>
               Contáctame
             </button>
+            
+            </Link>
+         
           </div>
 
           <div className={styles.containerImg}>

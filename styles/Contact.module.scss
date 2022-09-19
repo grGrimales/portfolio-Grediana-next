@@ -26,11 +26,11 @@
 
     h3{
 
-        color: #B7CCCC;
+        color: $color-text;
     }
 
     a{
-        color: #727B86;
+        color: $color-textOpacity;
         display: flex;
         align-items: center;
         gap: 2rem;
@@ -73,7 +73,7 @@
 .contact__form{
     display: flex;
     flex-direction: column;
-    color: #77776D;
+    color: $color-label;
     font-size: 1.2rem;
 
     label{
@@ -86,11 +86,13 @@
         padding: 1rem;
         width: 100%;
         margin-bottom: 1rem;
+        color: $color-text;
+        border-radius: .3rem;
 
         &:focus{
             border: 1px solid $color-complemantary;
             outline: none;
-            //background-color: red;
+           
         }
     }
 }

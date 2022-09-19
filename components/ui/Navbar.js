@@ -12,6 +12,8 @@ export const Navbar = () => {
 
   const handleClick = () => setClick(!click);
 
+  const handleClickLink = () => setClick(false)
+
   useEffect(() => {
     window.onscroll = function () {
       const scrollTop = document.documentElement.scrollTop;
@@ -24,7 +26,7 @@ export const Navbar = () => {
     };
 
     const handleInnerWidth = () => {
-      if (window.innerWidth > 760) {
+      if (window.innerWidth > 992) {
         setClick(false);
       }
     };
@@ -57,24 +59,28 @@ export const Navbar = () => {
                   click ? styles.activeUl : ""
                 }`}
               >
-                {/* <li>
-                  <ActiveLink link="/#hero" text="Inicio" />
-                </li> */}
-                <li>
+               
+                <li  onClick={handleClickLink}>
                   <ActiveLink link="/#aboutMe" text="Sobre mi" />
                 </li>
 
-                <li>
+                <li  onClick={handleClickLink} >
                   <ActiveLink link="/#skills" text="Herramientas" />
                 </li>
-                <li>
+                <li  onClick={handleClickLink}>
                   <ActiveLink link="/#formation" text="Formación" />
                 </li>
 
-                <li>
+                <li  onClick={handleClickLink} >
                   <ActiveLink link="/#projects" text="Proyectos" />
                 </li>
+
+
+                <li  onClick={handleClickLink} >
+                  <ActiveLink link="/#contact" text="Contacto" />
+                </li>
               </ul>
+
             </nav>
           </div>
         </div>
