@@ -1,11 +1,10 @@
-import styles from "../styles/Home.module.scss";
 import { Layout } from "../components/layout/Layout";
 import { Hero } from "../components/ui/Hero";
 import { AboutMe } from "../components/section/AboutMe";
 import { Skills } from "../components/section/Skills";
 import { Formation } from "../components/section/Formation";
 import { Services } from "../components/section/Services";
-import { Projects } from "../components/section/Projects";
+import { Projects } from "../components/section/projects/Projects";
 import { Contact } from "../components/section/Contact";
 
 export default function Home() {

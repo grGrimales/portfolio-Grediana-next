@@ -1,6 +1,13 @@
 
 @import './variables.module.scss';
 @import './mixins.module.scss';
+
+.contendorModal{
+  width: 500px;
+  min-height: 100px;
+  background: #fff;
+  position: relative;
+}
 .projects {
     background-color: $color-secundario;
     padding-top: 1rem;

@@ -13,6 +13,7 @@ export const initialData = {
             ],
             title: "titulo test 1",
             description: "description test 1",
+            technologies:['Sass', 'React', 'Figma', 'Firebase'],
             linkDemo: "linkDemo test 1",
             linkGithub: "linkGithub test 1",
     
@@ -24,6 +25,7 @@ export const initialData = {
                 "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
             ],
             title: "titulo test 2",
+            technologies:['Sass', 'React', 'Figma', 'Firebase'],
             description: "description test 2",
             linkDemo: "linkDemo test 2",
             linkGithub: "linkGithub test 2",
@@ -37,6 +39,8 @@ export const initialData = {
             ],
             title: "titulo test 3",
             description: "description test 3",
+            technologies:['Sass', 'React', 'Figma', 'Firebase'],
+
             linkDemo: "linkDemo test 3",
             linkGithub: "linkGithub test 3",
     
@@ -49,6 +53,8 @@ export const initialData = {
             ],
             title: "titulo test 4",
             description: "description test 4",
+            technologies:['Sass', 'React', 'Figma', 'Firebase'],
+
             linkDemo: "linkDemo test 4",
             linkGithub: "linkGithub test 4",
     
