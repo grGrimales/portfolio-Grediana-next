@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 import styles from '../../styles/AboutMe.module.scss'
 
 export const AboutMe = () => {
@@ -23,7 +24,9 @@ export const AboutMe = () => {
 
         <div className={styles.containerBtn}>
           <button type="button" className={styles.containerBtn__cv}>
-            Dowload Cv
+
+            <a href='/cvPrueba.pdf' target="_blank" rel="noopener noreferrer" download="Grediana.pdf">      Dowload Cv</a>
+       
           </button>
 
           <Link href='/#projects'>

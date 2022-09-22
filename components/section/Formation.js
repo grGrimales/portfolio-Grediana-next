@@ -21,9 +21,9 @@ export const Formation = () => {
               <span className={styles.formation__academy}>CoderHouse</span>
               <div className={styles.formation__details}>
                 <ul>
-                  <li><i className="fa-solid fa-check"></i> Desarrollo Web</li>
-                  <li> <i className="fa-solid fa-check"></i> JavaScript </li>
-                  <li><i className="fa-solid fa-check"></i>React </li>
+                  <li><i className="fa-regular fa-circle-check"></i> Desarrollo Web</li>
+                  <li> <i className="fa-regular fa-circle-check"></i> JavaScript </li>
+                  <li><i className="fa-regular fa-circle-check"></i> React </li>
 
 
 
