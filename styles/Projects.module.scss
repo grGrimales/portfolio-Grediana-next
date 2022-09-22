@@ -2,12 +2,10 @@
 @import './variables.module.scss';
 @import './mixins.module.scss';
 
-.contendorModal{
-  width: 500px;
-  min-height: 100px;
-  background: #fff;
-  position: relative;
+.img{
+  width: 300px;
 }
+
 .projects {
     background-color: $color-secundario;
     padding-top: 1rem;

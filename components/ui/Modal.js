@@ -28,7 +28,7 @@ export const Modal = ({ modalIsOpen, closeModal, content }) => {
 
                                 {
                                     content.technologies.map((tec) => (
-                                        <li> <i className={`${tec === 'Sass' ? 'fa-brands fa-sass' : tec === 'React' ? 'fa-brands fa-react' : tec === 'Figma' ? 'fa-brands fa-figma' : tec === 'Firebase' ? 'fa-brands fa-react':'' }`}></i> {tec}</li>
+                                        <li key={tec}> <i className={`${tec === 'Sass' ? 'fa-brands fa-sass' : tec === 'React' ? 'fa-brands fa-react' : tec === 'Figma' ? 'fa-brands fa-figma' : tec === 'Firebase' ? 'fa-brands fa-react':'' }`}></i> {tec}</li>
                                     ))
                                 }
                               
