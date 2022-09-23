@@ -28,11 +28,22 @@ export const Modal = ({ modalIsOpen, closeModal, content }) => {
 
                                 {
                                     content.technologies.map((tec) => (
-                                        <li key={tec}> <i className={`${tec === 'Sass' ? 'fa-brands fa-sass' : tec === 'React' ? 'fa-brands fa-react' : tec === 'Figma' ? 'fa-brands fa-figma' : tec === 'Firebase' ? 'fa-brands fa-react':'' }`}></i> {tec}</li>
+                                        <li key={tec}>
+                                            <i className=
+                                                {`${tec === 'SASS' ? 'fa-brands fa-sass'
+                                                    : tec === 'React' ? 'fa-brands fa-react'
+                                                        : tec === 'Figma' ? 'fa-brands fa-figma'
+                                                            : tec === 'HTML5' ? 'fa-brands fa-html5'
+                                                                : tec === 'CSS' ? 'fa-brands fa-css3-alt'
+                                                                    : tec === 'JavaScript' ? 'fa-brands fa-square-js'
+                                                                        : tec === 'Next.js' ? 'fa-thin fa-n'
+                                                                            : tec === 'Node.js' ? 'fa-brands fa-node'
+                                                                                : tec === 'Firebase' ? 'fa-brands fa-react'
+                                                                                    : ''}`}></i> {tec}</li>
                                     ))
                                 }
-                              
-                              
+
+
 
                             </ul>
 

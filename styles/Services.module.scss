@@ -17,6 +17,7 @@
   
     @include medium {
       flex-direction: row;
+      justify-content: space-between;
     }
   }
   
@@ -37,6 +38,10 @@
   
     span {
       font-size: 2rem;
+    }
+
+    p{
+      max-width: 550px;
     }
   }
   
