@@ -8,8 +8,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1643734869/h3gyikcx7voy2agtdtbk.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1643734869/h3gyikcx7voy2agtdtbk.jpg"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664038255/Dise%C3%B1o_sin_t%C3%ADtulo_2_rypl7f.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664038964/Dise%C3%B1o_sin_t%C3%ADtulo_3_l1nfiy.png"
             ],
             title: "LEARNING ENGLISH",
             category: 'diseño',

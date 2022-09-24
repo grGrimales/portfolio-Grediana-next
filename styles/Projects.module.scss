@@ -62,8 +62,8 @@
     -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.54);
     box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.54);
     border: 3px solid #777777;
-    // padding: .5rem;
     border-radius: .3rem;
+    max-width: 300px;
   
     &:hover {
       border: 3px solid $color-complemantary;
