@@ -1,5 +1,4 @@
 
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { isEmail } from '../../utils/validation';
@@ -8,15 +7,14 @@ import portfolioApi from "../../api/portfolioApi";
 
 export const Contact = () => {
 
-    const [ showError, setShowError ] = useState(false);
-    const { register, resetField, handleSubmit, formState: { errors }, } = useForm();
+    const { register, reset, handleSubmit, formState: { errors }, } = useForm();
 
     const onSubmit = async (data) => {
 
         try {
             const bd = await portfolioApi.post("/contact", data);
 
-         resetField();
+     
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
@@ -24,7 +22,7 @@ export const Contact = () => {
                 showConfirmButton: false,
                 timer: 1500
               })
-            
+              reset();
         } catch (error) {
 
             console.log(error)

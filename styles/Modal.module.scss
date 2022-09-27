@@ -81,13 +81,20 @@
         }
     }
 
-    ul{
+    ul {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
-        li{
+
+        @include medium {
+            flex-direction: row;
+        }
+
+        li {
             color: $color-title;
         }
-        i{
+
+        i {
             font-size: 1.2rem;
             color: $color-text;
         }

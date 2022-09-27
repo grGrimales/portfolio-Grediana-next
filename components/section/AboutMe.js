@@ -25,7 +25,7 @@ export const AboutMe = () => {
         <div className={styles.containerBtn}>
           <button type="button" className={styles.containerBtn__cv}>
 
-            <a href='/cvPrueba.pdf' target="_blank" rel="noopener noreferrer" download="Grediana.pdf">      Dowload Cv</a>
+            <a href='/CVGredianaRojasGrimales.pdf' target="_blank" rel="noopener noreferrer" download="CV-Grediana.pdf">      Dowload Cv</a>
        
           </button>
 

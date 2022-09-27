@@ -12,6 +12,12 @@ export const ProjectSlideShow = ({ images }) => {
 
   
   return (
+
+    <>
+    
+    
+    
+
     <Slide easing="ease" duration={7000}  arrows={false} indicators >
       {images?.map((image) => {
 
@@ -29,6 +35,7 @@ export const ProjectSlideShow = ({ images }) => {
         );
       })}
     </Slide>
+    </>
   );
 };
 

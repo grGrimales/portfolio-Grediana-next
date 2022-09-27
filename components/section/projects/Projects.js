@@ -1,28 +1,32 @@
 import { useState, useEffect } from "react";
+import { initialData } from "../../../database/seedData";
 import { useProjects } from "../../../hooks/useProjects";
 
 import styles from '../../../styles/Projects.module.scss';
 import { FullScreenLoading } from "../../ui/FullScreenLoading";
 import { ProjectList } from "./ProjectList";
-
+//import seedData from '../../../database'
 export const Projects = () => {
 
-
-  const { projects, isLoading } = useProjects("/project");
+  //const { projects, isLoading } = useProjects("/project");
+  const isLoading = false;
+  const projects = initialData.projects;
   const [projectsFiltered, setProjectsFiltered] = useState();
   const [activeMenu, setActiveMenu] = useState("todos")
+
+
 
   const filterByProjects = (category) => {
     if (category !== "todos") {
       setActiveMenu(category)
-      setProjectsFiltered(projects.projects.filter(project => project.category === category))
+      setProjectsFiltered(projects.filter(project => project.category === category))
       return
     }
     setActiveMenu('todos')
-    setProjectsFiltered(projects.projects)
+    setProjectsFiltered(projects)
   }
   useEffect(() => {
-    if (!isLoading) setProjectsFiltered(projects.projects);
+    if (!isLoading) setProjectsFiltered(projects);
   }, [isLoading])
 
   const menuItemList = [
@@ -68,7 +72,8 @@ export const Projects = () => {
       </div>
 
       {
-        isLoading ? <FullScreenLoading/> : <ProjectList projects={projectsFiltered} />
+        // isLoading ? <FullScreenLoading/> : <ProjectList projects={projectsFiltered} />
+        <ProjectList projects={projectsFiltered} />
       }
 
     </section>

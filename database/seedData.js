@@ -22,8 +22,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664052534/decomood_qmor50.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664055695/decomood_2_rdhawd.png"
             ],
             title: "Decomood",
             category: 'next',
@@ -37,8 +37,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664053396/altoSellos_pxeijj.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664069920/altoSellos2_banpx3.png"
             ],
             title: "ALTO SELLOS",
             category: 'next',
@@ -53,8 +53,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664070257/altamiranda_eobwpr.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664070998/altamiranda2_2_hkj49g.png"
             ],
             title: "ALTAMIRANDA MARTÍNEZ",
             category: 'diseño',
@@ -69,8 +69,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664071235/calendar_dtzno4.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664071653/calendar2_jmh8ao.png"
             ],
             title: "CALENDAR-APP",
             category: 'react',
@@ -86,8 +86,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664071864/journal_b1pqph.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664071994/journal2_cx3oi4.png"
             ],
             title: "JOURNAL-APP",
             category: 'react',
@@ -103,8 +103,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664072738/tiempoLibro_pfvjuu.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664208593/tiempoLibro2_jwn2dg.png"
             ],
             title: "TIEMPO LIBRO",
             category: 'react',
@@ -121,8 +121,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664209011/cafeteria_sufsgv.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664209112/cafeteria2_qx5a0x.png"
             ],
             title: "PÁGINA CAFETERÍA",
             category: 'diseño',
@@ -138,8 +138,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664209528/blackjack_sw4prc.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664210383/blackjack2_drp28w.png"
             ],
             title: "BLACKJACK",
             category: 'js',
@@ -154,8 +154,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664226523/pokemon_mghghk.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664226543/pokemon_1_w0pfmo.png"
             ],
             title: "POKEMON APP",
             category: 'next',
@@ -170,8 +170,8 @@ export const initialData = {
         {
     
             images: [
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1650732091/qy5xz60k8fi9vljq6wt6.jpg",
-                "https://res.cloudinary.com/dvmpfgqrs/image/upload/v1656709284/qev0pl3yk5qemme12loq.png"
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664227290/tiendaMuebles_bxqckd.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664227102/tiendaMuebles_1_eqx4xb.png"
             ],
             title: "TIENDA DE MUEBLES",
             category: 'diseño',

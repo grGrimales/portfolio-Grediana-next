@@ -29,28 +29,31 @@ export const ProjectList = ({ projects }) => {
         <Modal modalIsOpen={modalIsOpen} closeModal={closeModal} content={itemToShowOnModal} />
 
         {
-          projects?.map((project) => (
-            <>
-
-              <div className={styles.projectItem} key={project._id}>
-
-                <div className={styles.img} >
-                  <ProjectSlideShow images={project.images} />
-                </div>
-                <div className={styles.projectItem__description}>
-                  <h3>{project.title}</h3>
-                  <span onClick={() => openModal(project)}>  <i className="fa-solid fa-circle-info"></i></span>
+          projects?.map((project, id) => (
 
 
+            <div className={styles.projectItem} key={id}>
 
-                </div>
-                <div className={styles.projectItem__links}>
-                  <a href={project.linkDemo} >Demo <i className="fa-solid fa-angles-right"></i> </a>
-                  <a href={project.linkGithub} >Github <i className="fa-solid fa-angles-right"></i> </a>
-
-                </div>
+              <div className={styles.img} >
+                <ProjectSlideShow images={project.images} />
               </div>
-            </>
+              <div className={styles.projectItem__description}>
+                <h3>{project.title}</h3>
+                <span onClick={() => openModal(project)}>  <i className="fa-solid fa-circle-info"></i></span>
+
+
+
+              </div>
+              <div className={styles.projectItem__links}>
+                <a href={project.linkDemo}    target="_blank"
+          rel={"noreferrer"} >Demo <i className="fa-solid fa-angles-right"></i> </a>
+                <a href={project.linkGithub}    target="_blank"
+          rel={"noreferrer"}>Github <i className="fa-solid fa-angles-right"></i> </a>
+
+              </div>
+
+            </div>
+
           ))
         }
 
