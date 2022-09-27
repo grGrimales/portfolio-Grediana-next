@@ -14,15 +14,15 @@ export const Contact = () => {
         try {
             const bd = await portfolioApi.post("/contact", data);
 
-     
+
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
                 title: '¡Mensaje enviado con Éxito!',
                 showConfirmButton: false,
                 timer: 1500
-              })
-              reset();
+            })
+            reset();
         } catch (error) {
 
             console.log(error)
@@ -33,7 +33,7 @@ export const Contact = () => {
                 text: error,
                 showConfirmButton: false,
                 timer: 1500
-              })
+            })
         }
 
     }
@@ -48,14 +48,23 @@ export const Contact = () => {
                 <div className={styles.contact__info}>
                     <h3>Grediana Rojas Grimales</h3>
 
-                    <a href='#'><i className="fa-solid fa-envelope"></i>  grojasgrimales@gmail.com </a>
-                    <a href='#'><i className="fa-solid fa-phone"></i> 923 929 618 </a>
+                    <a href='mailto: grojasgrimales@gmail.com?Subject=¡Hola!%20me%20gustaría%20contactarte%20'><i className="fa-solid fa-envelope"></i>  grojasgrimales@gmail.com </a>
+                    <a href='tel:+51923929618'><i className="fa-solid fa-phone"></i> 923 929 618 </a>
 
                     <div className={styles.contact__redes}>
                         <h3>Sígueme</h3>
                         <div className={styles.redesContainer}>
-                            <a href='#'><i className="fa-brands fa-linkedin"></i></a>
-                            <a href='#'><i className="fa-brands fa-github"></i></a>
+                            <a
+                                href='https://www.linkedin.com/in/grediana-rojas/'
+                                target="_blank"
+                                rel={"noreferrer"}
+                            ><i className="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a
+                                href='https://github.com/grGrimales/'
+                                target="_blank"
+                                rel={"noreferrer"}
+                            ><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
 
@@ -115,17 +124,17 @@ export const Contact = () => {
                         </div>
                         <label htmlFor='message'>Mensaje</label>
 
-                        <textarea 
-                        name="message"
-                         rows="10"
-                          cols="50"
-                          {...register("message", {
-                            required: "*El mensaje es requerido",
-                        })}
-                         >
+                        <textarea
+                            name="message"
+                            rows="10"
+                            cols="50"
+                            {...register("message", {
+                                required: "*El mensaje es requerido",
+                            })}
+                        >
 
-                         </textarea>
-                                {<span>{errors.message?.message}</span>}
+                        </textarea>
+                        {<span>{errors.message?.message}</span>}
 
                         <button type='submit' className={styles.btnForm}>Enviar</button>
                     </form>

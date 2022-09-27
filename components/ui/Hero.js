@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.hero}>
         <div className={styles.description}>
           <div className={styles.description__text}>
-            <span>Hola</span>
+            <span>¡Hola!</span>
 
             <h1>Soy Grediana</h1>
             <p>Developer FrontEnd - Design FrontEnd</p>
