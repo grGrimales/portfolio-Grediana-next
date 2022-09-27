@@ -4,16 +4,16 @@ import Swal from "sweetalert2";
 import { isEmail } from '../../utils/validation';
 import styles from '../../styles/Contact.module.scss'
 import portfolioApi from "../../api/portfolioApi";
+import { useState } from "react";
 
 export const Contact = () => {
 
     const { register, reset, handleSubmit, formState: { errors }, } = useForm();
-
+const [disable, setDisable] = useState(true)
     const onSubmit = async (data) => {
 
         try {
             const bd = await portfolioApi.post("/contact", data);
-
 
             Swal.fire({
                 position: 'top-end',
@@ -23,6 +23,7 @@ export const Contact = () => {
                 timer: 1500
             })
             reset();
+           
         } catch (error) {
 
             console.log(error)
@@ -136,7 +137,7 @@ export const Contact = () => {
                         </textarea>
                         {<span>{errors.message?.message}</span>}
 
-                        <button type='submit' className={styles.btnForm}>Enviar</button>
+                        <button type='submit' className={styles.btnForm} >Enviar</button>
                     </form>
                 </div>
             </div>
