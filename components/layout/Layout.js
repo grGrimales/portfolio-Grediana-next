@@ -27,7 +27,7 @@ export const Layout = ({ children, title = "Decomood", description }) => {
           property="og:description"
           content={`Esta es la página  sobre  ${title}`}
         />
-        <meta property="og:image" content={`${origin}/images/logo.png`} />
+        <meta property="og:image" content={`${origin}/images/grediana.png`} />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
