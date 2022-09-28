@@ -19,11 +19,13 @@
 .redesContainer {
     display: flex;
     gap: 2rem;
-    font-size: 1.5rem;
     color: #727B86;
 
 
     a{
+
+    font-size: 1.5rem;
+
         &:hover{
             color: $color-complemantary;
         }

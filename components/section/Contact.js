@@ -9,7 +9,7 @@ import { useState } from "react";
 export const Contact = () => {
 
     const { register, reset, handleSubmit, formState: { errors }, } = useForm();
-const [isDisabled, setIsDisableb] = useState(false)
+    const [isDisabled, setIsDisableb] = useState(false)
     const onSubmit = async (data) => {
         try {
             setIsDisableb(true)
@@ -24,7 +24,7 @@ const [isDisabled, setIsDisableb] = useState(false)
                 timer: 1500
             })
             reset();
-           
+
         } catch (error) {
 
             console.log(error)
@@ -62,11 +62,19 @@ const [isDisabled, setIsDisableb] = useState(false)
                                 rel={"noreferrer"}
                             ><i className="fa-brands fa-linkedin"></i>
                             </a>
+
+                            <a
+                                href='https://api.whatsapp.com/send?phone=+51923929618&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20contactar%20contigo.'
+                                target="_blank"
+                                rel={"noreferrer"}
+                            ><i class="fa-brands fa-whatsapp"></i></a>
                             <a
                                 href='https://github.com/grGrimales/'
                                 target="_blank"
                                 rel={"noreferrer"}
                             ><i className="fa-brands fa-github"></i></a>
+
+
                         </div>
                     </div>
 
