@@ -72,14 +72,15 @@
 
 
 .contact__form{
- 
     color: $color-label;
     font-size: 1.2rem;
+    max-width: 600px;
+   
 
     form{
         display: flex;
         flex-direction: column;
-        max-width: 600px;
+     
     }
     label{
         display: block;
@@ -98,6 +99,7 @@
         &:focus{
             border: 1px solid $color-complemantary;
             outline: none;
+            transition: border 3s ease-in-out;
            
         }
     }
@@ -110,12 +112,12 @@
 
 .inputGroup{
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 
-    div{
-        display: flex;
-        flex-direction: column;
-    }
+   @include medium {
+    flex-direction: row;
+   }
 }
 
 .btnForm{
