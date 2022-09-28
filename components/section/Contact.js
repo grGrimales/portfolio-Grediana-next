@@ -9,11 +9,12 @@ import { useState } from "react";
 export const Contact = () => {
 
     const { register, reset, handleSubmit, formState: { errors }, } = useForm();
-const [disable, setDisable] = useState(true)
+const [isDisabled, setIsDisableb] = useState(false)
     const onSubmit = async (data) => {
-
         try {
+            setIsDisableb(true)
             const bd = await portfolioApi.post("/contact", data);
+            setIsDisableb(false)
 
             Swal.fire({
                 position: 'top-end',
@@ -137,7 +138,7 @@ const [disable, setDisable] = useState(true)
                         </textarea>
                         {<span>{errors.message?.message}</span>}
 
-                        <button type='submit' className={styles.btnForm} >Enviar</button>
+                        <button type='submit' className={styles.btnForm} disabled={isDisabled} >Enviar</button>
                     </form>
                 </div>
             </div>
