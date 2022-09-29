@@ -12,7 +12,7 @@ export const Hero = () => {
             <span>¡Hola!</span>
 
             <h1>Soy Grediana</h1>
-            <p>Developer FrontEnd - Design FrontEnd</p>
+            <p> FrontEnd Developer -  FrontEnd Design</p>
             <Link href='/#contact'>
             <button type="button" className={styles["cover__btn"]}>
               Contáctame
