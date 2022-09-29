@@ -1,10 +1,10 @@
+import { useState } from "react";
 
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { isEmail } from '../../utils/validation';
 import styles from '../../styles/Contact.module.scss'
 import portfolioApi from "../../api/portfolioApi";
-import { useState } from "react";
 
 export const Contact = () => {
 
@@ -40,8 +40,8 @@ export const Contact = () => {
 
     }
     return (
-   
-   
+
+
         <section id='contact' className={`section ${styles.contact} animate__animated animate__fadeInDown`}>
 
             <h2>Contáctame</h2>
@@ -96,8 +96,10 @@ export const Contact = () => {
                                 required: "*Nombre es requerido",
                             })}
                         />
+<div>
 
                         {<span>{errors.name?.message}</span>}
+</div>
 
 
                         <div className={styles.inputGroup}>
@@ -111,7 +113,11 @@ export const Contact = () => {
                                     {...register("phone", {
                                         required: "*Telefóno es requerido",
                                     })} />
-                                {<span>{errors.phone?.message}</span>}
+
+                                <div>
+
+                                    {<span>{errors.phone?.message}</span>}
+                                </div>
 
                             </div>
                             <div>
@@ -127,8 +133,13 @@ export const Contact = () => {
                                         required: "*Email es requerido",
                                         validate: isEmail
                                     })} />
-                                {<span>{errors.email?.message}</span>}
-                                {<span>{!!errors.email}</span>}
+
+                                <div>
+
+                                    {<span>{errors.email?.message}</span>}
+                                    {<span>{!!errors.email}</span>}
+                                </div>
+
 
 
 
@@ -141,7 +152,7 @@ export const Contact = () => {
                             rows="10"
                             cols="50"
                             {...register("message", {
-                                required: "*El mensaje es requerido",
+                                required: "*Mensaje es requerido",
                             })}
                         >
 
