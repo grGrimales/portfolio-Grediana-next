@@ -17,9 +17,9 @@ export const AboutMe = () => {
 
         <p>
 
-          Front- End Developer Enfocada en el desarrollo y maquetación de
+        Developer    FrontEnd enfocada en el desarrollo y maquetación de
           aplicaciones web donde se garantiza una buena experiencia de
-          usuario. Te invito a conocer mas sobre mi trabajo
+          usuario. Te invito a conocer más sobre mi trabajo
         </p>
 
         <div className={styles.containerBtn}>

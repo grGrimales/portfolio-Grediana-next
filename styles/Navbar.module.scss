@@ -85,6 +85,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     margin: 0;
+    color: $color-title;
 
 
     @include max {
@@ -98,13 +99,11 @@
     }
     a {
         font-size: 1rem;
-        color: $color-title;
-        //padding: 0 2rem;
         text-transform: uppercase;
         font-weight: 400;
         &:hover {
-            transition: all 0.3s ease-in-out;
-            border-bottom: 1px solid $color-complemantary;
+            transition: all 0.2s ease-in-out;
+            border-bottom: 3px solid $color-complemantary;
             color: $color-complemantary;
         }
     }
@@ -153,8 +152,5 @@ h3{
 }
 
 
-.nav_mod a {
-    color: $color-title;
-}
 
 

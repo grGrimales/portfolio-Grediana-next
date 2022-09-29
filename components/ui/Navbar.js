@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-//import Link from "next/link";
+import NextLink from "next/link";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import styles from "../../styles/Navbar.module.scss";
@@ -48,9 +48,9 @@ export const Navbar = () => {
       <header className={`${styles.header} ${scroll ? styles.nav_mod : ""}`}>
         <div className={styles["container__header"]}>
           <div className={styles.logo}>
-            <Link href="/">
+            <NextLink href="/" passHref>
               <h3>Grediana</h3>
-            </Link>
+            </NextLink>
 
             <div className={styles["header__icon"]} onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -63,76 +63,64 @@ export const Navbar = () => {
                 className={`${styles.containerNav__list} ${click ? styles.activeUl : ""
                   }`}
               >
-
-                <li onClick={handleClickLink}>
+               
+                <li >
                   <Link to='aboutMe'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Sobre mi</Link>
                 </li>
-                <li onClick={handleClickLink}>
+                <li >
                   <Link to='skills'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Herramientas</Link>
                 </li>
-                <li onClick={handleClickLink}>
+                <li >
                   <Link to='formation'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Formación</Link>
                 </li>
 
-                <li onClick={handleClickLink}>
+                <li >
                   <Link to='services'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Servicios</Link>
                 </li>
 
-                <li onClick={handleClickLink}>
+                <li >
                   <Link to='projects'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Proyectos</Link>
                 </li>
-                <li onClick={handleClickLink}>
+                <li >
                   <Link to='contact'
+                  onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}>Contacto</Link>
                 </li>
-                {/* <li onClick={handleClickLink}>
-                  <ActiveLink link="/#aboutMe" text="Sobre mi" />
-                </li>
-
-                <li onClick={handleClickLink} >
-                  <ActiveLink link="/#skills" text="Herramientas" />
-                </li>
-                <li onClick={handleClickLink}>
-                  <ActiveLink link="/#formation" text="Formación" />
-                </li>
-
-                <li onClick={handleClickLink} >
-                  <ActiveLink link="/#projects" text="Proyectos" />
-                </li>
-
-
-                <li onClick={handleClickLink} >
-                  <ActiveLink link="/#contact" text="Contacto" />
-                </li> */}
+              
               </ul>
 
             </nav>

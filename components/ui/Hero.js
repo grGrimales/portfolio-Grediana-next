@@ -6,7 +6,7 @@ import styles from "../../styles/Hero.module.scss";
 export const Hero = () => {
   return (
     <>
-      <div className={styles.hero}>
+      <div className={styles.hero} id='hero'>
         <div className={styles.description}>
           <div className={styles.description__text}>
             <span>¡Hola!</span>

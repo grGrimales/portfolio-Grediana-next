@@ -1,86 +1,91 @@
-
 @import './variables.module.scss';
 @import './mixins.module.scss';
+
+
 .aboutMe {
-    background-color: $color-secundario;
-    display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
-    padding-bottom: 8rem;
-  
-    @include medium {
-      padding-top: 4rem;
-  
-    }
-  
-  
+  background-color: $color-secundario;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+
+  @include medium {
+    padding-top: 3rem;
+
   }
-  
-  .aboutMe__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    @include medium {
-      flex-direction: row-reverse;
-    }
-  
-  
+
+
+}
+
+.aboutMe__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include medium {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
   }
-  
-  
-  
-  .aboutMe__description {
-    padding: 1rem;
-    flex: 1;
-  
-    @include medium {
-      padding: 0;
-  
-    }
-  
-    p {
-      color: $color-title;
-      font-size: 1.5rem;
-    }
-  
-  }
-  
-  
-  .containerBtn {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-bottom: 2rem;
-  
-    @include medium {
-      flex-direction: row;
+
+
+}
+
+
+
+.aboutMe__description {
+  padding: 1rem;
+  flex: 1;
+
+
+
+  p {
+    color: $color-title;
+    font-size: 1.2rem;
+
+    @include medium{
+    font-size: 1.5rem;
+
     }
   }
-  
-  
-  .containerBtn__cv,
-  .containerBtn__projects {
-    padding: 13px 40px;
-    margin-top: 2.5rem;
-    font-size: 1.12rem;
-    font-weight: 400;
-    border: none;
-    background: transparent;
-    border: 1px solid $color-complemantary;
-    color: $color-complemantary;
-    cursor: pointer;
-    transition: border 500ms;
-    border-radius: 0.3rem;
-    align-self: flex-start;
-  
-    @include medium {
-      padding: 10px 40px;
-      opacity: .9;
-    }
-  
-    &:hover {
-      background-color: $color-complemantary;
-      color: $color-title;
-    }
+
+}
+
+
+.containerBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+
+  @include medium {
+    flex-direction: row;
   }
+}
+
+
+.containerBtn__cv,
+.containerBtn__projects {
+  padding: 13px 40px;
+  margin-top: 2.5rem;
+  font-size: 1.12rem;
+  font-weight: 400;
+  border: none;
+  background: transparent;
+  border: 1px solid $color-complemantary;
+  color: $color-complemantary;
+  cursor: pointer;
+  transition: border 500ms;
+  border-radius: 0.3rem;
+  align-self: flex-start;
+
+  @include medium {
+    padding: 10px 40px;
+    opacity: .9;
+  }
+
+  &:hover {
+    background-color: $color-complemantary;
+    color: $color-title;
+  }
+}

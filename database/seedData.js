@@ -13,7 +13,7 @@ export const initialData = {
             ],
             title: "LEARNING ENGLISH",
             category: 'diseño',
-            description: "Wireframe en Figma. Maquetación con Html, bootstrap y SASS de una aplicación de Ingles en donde vas a poder reproducir conversaciones de Ingles escoger el numero de reproducciones. Ademas de poder agregar, actualizar o eliminar frases.",
+            description: "Wireframe en Figma. Maquetación con Html, bootstrap y SASS de una aplicación de ingles en donde vas a poder reproducir conversaciones de ingles, escoger el número de reproducciones. Además de poder agregar, actualizar o eliminar frases.",
             technologies:[ 'Figma', 'HTML5', 'SASS',],
             linkDemo: "https://grgrimales.github.io/app-learning-english/",
             linkGithub: "https://github.com/grGrimales/app-learning-english",
@@ -43,7 +43,7 @@ export const initialData = {
             title: "ALTO SELLOS",
             category: 'next',
 
-            description: "Desarrollo de sitio web en Next.js, se realizo wireframe en figma y se implemento Css.module.",
+            description: "Sitio web creado para una empresa dedicada a la creación de sellos artesanales en Argentina. Se utilizó figma para el wireframe  y se desarrollo en Next.js, los estilos fueron creados con SASS.",
             technologies:['SASS', 'Next.js', 'Figma'],
 
             linkDemo: "https://altosellos.com.ar/",
@@ -176,7 +176,7 @@ export const initialData = {
             title: "TIENDA DE MUEBLES",
             category: 'diseño',
 
-            description: "Tienda de muebles, con seis secciones cada una de ellas adaptadas en responsive con mobile first.",
+            description: "Tienda de muebles, con seis secciones cada una de ellas adaptadas a diferentes dispositivos con responsive mobile first.",
             technologies:['HTML5', 'CSS'],
 
             linkDemo: "hhttps://grgrimales.github.io/maquetacion-tienda-muebles/",

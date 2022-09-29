@@ -5,7 +5,7 @@
 
 .projects {
   background-color: $color-secundario;
-  padding-top: 4rem;
+  padding-top: 3rem;
 
 
 }
@@ -27,7 +27,7 @@
   li {
     &:hover {
       border-bottom: 3px solid $color-complemantary;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.2s ease;
 
     }
   }
@@ -62,12 +62,7 @@
   border-radius: .3rem;
   max-width: 300px;
   padding-bottom: .5rem;
-  // &:hover {
-  //   border: 3px solid $color-complemantary;
-  //   //transform: scale(1.05, 1.05);
-  //   transition: all 0.3s ease-in-out;
 
-  // }
 
 
   img {
@@ -80,13 +75,6 @@
   width: 300px;
   border-right: 3px solid #777777;
   border-left: 3px solid #777777;
-
-  // &:hover {
-  //   border-right: 3px solid $color-complemantary;
-  //   border-left: 3px solid $color-complemantary;
-
-
-  // }
 
 }
 
