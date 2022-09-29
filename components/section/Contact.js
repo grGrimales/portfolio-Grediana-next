@@ -40,7 +40,9 @@ export const Contact = () => {
 
     }
     return (
-        <section id='contact' className={`section ${styles.contact}`}>
+   
+   
+        <section id='contact' className={`section ${styles.contact} animate__animated animate__fadeInDown`}>
 
             <h2>Contáctame</h2>
 
@@ -150,6 +152,7 @@ export const Contact = () => {
                     </form>
                 </div>
             </div>
+
         </section>
     )
 }

@@ -6,12 +6,15 @@ import { Formation } from "../components/section/Formation";
 import { Services } from "../components/section/Services";
 import { Projects } from "../components/section/projects/Projects";
 import { Contact } from "../components/section/Contact";
+import ScrollToTop from "../components/ui/ScrollToTop";
 
 export default function Home() {
 
 
   return (
     <Layout title="Gediana Rojas " description="Frontend Developer">
+
+      <ScrollToTop />
       {/* Hero */}
       <section id="hero" className='section'>
         <Hero />
@@ -36,6 +39,7 @@ export default function Home() {
 
       {/* Contact */}
       <Contact />
+
     </Layout>
   );
 }

@@ -1,0 +1,30 @@
+@import './variables.module.scss';
+@import './mixins.module.scss';
+
+.top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: $color-title;
+    border: 2px solid $color-complemantary;
+    cursor: pointer;
+
+
+    &:hover{
+        animation: all .3s ease-in-out;
+        background-color: $color-complemantary;
+        color: $color-title;
+    }
+  }
+  
+ 
