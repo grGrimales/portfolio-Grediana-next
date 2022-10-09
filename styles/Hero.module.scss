@@ -15,6 +15,8 @@
 
 }
 
+
+
 .description {
     max-width: 80%;
     display: flex;
@@ -48,6 +50,8 @@
     span {
         color: $color-title;
         margin: 0;
+        animation: moveInRight 1s ease-out;
+
 
     }
 
@@ -58,6 +62,7 @@
         color: $color-complemantary;
         margin: 0;
         margin-bottom: 1rem;
+        animation: moveInLeft 1s ease-out;
 
     }
 
@@ -65,6 +70,7 @@
         font-size: 1.5rem;
         color: #fff;
         margin: 0;
+        animation: moveInRight 1s ease-out;
     }
 
     button {
@@ -95,16 +101,65 @@
     }
 }
 
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveIn {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .containerImg {
+
     display: flex;
     justify-content: center;
+    animation: moveIn 1.8s ease-in-out;
 
     @include medium {
         justify-content: flex-end;
+
+
 
     }
 
     span{
         display: block;
     }
+
 }

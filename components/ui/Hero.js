@@ -11,6 +11,8 @@ export const Hero = () => {
           <div className={styles.description__text}>
             <span>¡Hola!</span>
 
+            
+
             <h1>Soy Grediana</h1>
             <p> FrontEnd Developer -  FrontEnd Design</p>
             <Link href='/#contact'>
