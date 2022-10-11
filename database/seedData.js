@@ -22,6 +22,20 @@ export const initialData = {
         {
     
             images: [
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1665526797/tesloShop_2_karwx1.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1665525522/tesloShop_1_bhpouz.png"
+            ],
+            title: "TESLOSHOP",
+            category: 'next',
+            description: "Desarrollo de E-COMMERCE en Next.js, contiene  un dasboard con sistema de login  para cliente y Admin con Crud de productos. Además de visualizar las ordenes de compra y ver su estad;  el usuario admin puede cambiar los permisos a usuarios para que sean admin. Cuenta con una pasarela de pago Paypal. El diseño fue creado con Material UI y CSS",
+            technologies:['Next.js', 'CSS'],
+            linkDemo: "https://teslo-shop-grediana.herokuapp.com/",
+            linkGithub: "https://github.com/grGrimales/teslo-shop",
+    
+        },
+        {
+    
+            images: [
                 "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664052534/decomood_qmor50.png",
                 "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664055695/decomood_2_rdhawd.png"
             ],
