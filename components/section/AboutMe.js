@@ -39,7 +39,7 @@ export const AboutMe = () => {
       </div>
       <div className={styles.aboutMe__image}>
         <Image
-          src={"/images/aboutMe4.png"}
+          src={"https://res.cloudinary.com/dcxto1nnl/image/upload/v1665521781/header13_lrpkij.png"}
           width="250"
           height={400}
           alt="Grediana"
