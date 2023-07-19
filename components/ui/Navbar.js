@@ -63,64 +63,64 @@ export const Navbar = () => {
                 className={`${styles.containerNav__list} ${click ? styles.activeUl : ""
                   }`}
               >
-               
+
                 <li >
                   <Link to='aboutMe'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Sobre mi</Link>
+                    duration={500}>SOBRE MIM</Link>
                 </li>
                 <li >
                   <Link to='skills'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Herramientas</Link>
+                    duration={500}>FERRAMENTAS</Link>
                 </li>
                 <li >
                   <Link to='formation'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Formación</Link>
+                    duration={500}>FORMAÇÃO</Link>
                 </li>
 
                 <li >
                   <Link to='services'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Servicios</Link>
+                    duration={500}>SERVIÇOS</Link>
                 </li>
 
                 <li >
                   <Link to='projects'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Proyectos</Link>
+                    duration={500}>PROJETOS</Link>
                 </li>
                 <li >
                   <Link to='contact'
-                  onClick={handleClickLink}
+                    onClick={handleClickLink}
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-100}
-                    duration={500}>Contacto</Link>
+                    duration={500}>CONTATO</Link>
                 </li>
-              
+
               </ul>
 
             </nav>

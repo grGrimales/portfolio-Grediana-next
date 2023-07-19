@@ -44,7 +44,7 @@ export const Contact = () => {
 
         <section id='contact' className={`section ${styles.contact} animate__animated animate__fadeInDown`}>
 
-            <h2>Contáctame</h2>
+            <h2>Contacte-me</h2>
 
 
             <div className={`container ${styles.contact__container}`}>
@@ -56,7 +56,7 @@ export const Contact = () => {
                     <a href='tel:+51923929618'><i className="fa-solid fa-phone"></i> 923 929 618 </a>
 
                     <div className={styles.contact__redes}>
-                        <h3>Sígueme</h3>
+                        <h3>Seguir-me</h3>
                         <div className={styles.redesContainer}>
                             <a
                                 href='https://www.linkedin.com/in/grediana-rojas/'
@@ -87,31 +87,31 @@ export const Contact = () => {
                     <form
                         onSubmit={handleSubmit(onSubmit)}
                         noValidate>
-                        <label htmlFor='name'>Nombre</label>
+                        <label htmlFor='name'>Nome</label>
                         <input
                             type='text'
                             name='name'
-                            placeholder='Ingrese su nombre...'
+                            placeholder='Introduza o seu nome...'
                             {...register("name", {
-                                required: "*Nombre es requerido",
+                                required: "*O nome é obrigatório",
                             })}
                         />
-<div>
+                        <div>
 
-                        {<span>{errors.name?.message}</span>}
-</div>
+                            {<span>{errors.name?.message}</span>}
+                        </div>
 
 
                         <div className={styles.inputGroup}>
 
                             <div>
-                                <label htmlFor='phone'>Telefono</label>
+                                <label htmlFor='phone'>Telefone</label>
                                 <input
                                     type='text'
                                     name='phone'
-                                    placeholder='Ingrese su número de telefóno'
+                                    placeholder='Introduza o seu número de telefone'
                                     {...register("phone", {
-                                        required: "*Telefóno es requerido",
+                                        required: "*É necessário um telefone",
                                     })} />
 
                                 <div>
@@ -128,9 +128,9 @@ export const Contact = () => {
                                 <input
                                     type='email'
                                     name='email'
-                                    placeholder='Ingrese su número correo'
+                                    placeholder='Introduza o seu e-mail'
                                     {...register("email", {
-                                        required: "*Email es requerido",
+                                        required: "*O e-mail é obrigatório",
                                         validate: isEmail
                                     })} />
 
@@ -145,14 +145,14 @@ export const Contact = () => {
 
                             </div>
                         </div>
-                        <label htmlFor='message'>Mensaje</label>
+                        <label htmlFor='message'>Mensagem</label>
 
                         <textarea
                             name="message"
                             rows="10"
                             cols="50"
                             {...register("message", {
-                                required: "*Mensaje es requerido",
+                                required: "*Mensagem obrigatória",
                             })}
                         >
 

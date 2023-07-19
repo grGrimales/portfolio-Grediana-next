@@ -9,19 +9,32 @@ export const Hero = () => {
       <div className={styles.hero} id='hero'>
         <div className={styles.description}>
           <div className={styles.description__text}>
-            <span>¡Hola!</span>
+            {/* <span>¡Hola!</span>
 
             
 
             <h1>Soy Grediana</h1>
-            <p> FrontEnd Developer -  FrontEnd Design</p>
+            <p> FrontEnd Developer -  FrontEnd Design</p> */}
+
+            <span>Olá!</span>
+
+
+
+            <h1>Eu sou Grediana</h1>
+            <p> Desenvolvedora FrontEnd - Design FrontEnd</p>
+
+
+
+
+
+
             <Link href='/#contact'>
-            <button type="button" className={styles["cover__btn"]}>
-              Contáctame
-            </button>
-            
+              <button type="button" className={styles["cover__btn"]}>
+                Contáctame
+              </button>
+
             </Link>
-         
+
           </div>
 
           <div className={styles.containerImg}>

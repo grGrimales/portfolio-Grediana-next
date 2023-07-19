@@ -3,7 +3,7 @@ import styles from '../../styles/Services.module.scss';
 export const Services = () => {
   return (
     <section id="services" className={`section ${styles.services}`}>
-      <h2>Servicios</h2>
+      <h2>Serviços</h2>
 
       <div className='container'>
         <div className={styles.services__content}>
@@ -11,11 +11,11 @@ export const Services = () => {
             <span><i className="fa-solid fa-laptop-code"></i>
             </span>
 
-            <h3>Desarrollo de aplicaciones web  </h3>
+            <h3>Desenvolvimento de aplicações Web </h3>.
             <p>
-              Creación de interfaces gráficas y uso de diversas tecnologías con el fín de
-               lograr los diferentes componentes visuales para un sitio o aplicación web.
-               </p>
+              Criação de interfaces gráficas e utilização de várias tecnologias para obter os diferentes
+              alcançar os diferentes componentes visuais para um sítio web ou uma aplicação web.
+            </p>
 
           </div>
 
@@ -23,9 +23,9 @@ export const Services = () => {
             <span><i className="fa-solid fa-tablet-screen-button"></i></span>
 
 
-            <h3> Diseño de aplicaciones web</h3>
-            <p>Sitios web receptivos creados para una experiencia de usuario óptima.
-              Al mismo tiempo garantice la facilidad de uso y su simplicidad.
+            <h3> Design de aplicações web</h3>
+            <p>Sites responsivos criados para uma óptima experiência do utilizador.
+              Ao mesmo tempo, garantindo facilidade de uso e simplicidade.
             </p>
 
           </div>

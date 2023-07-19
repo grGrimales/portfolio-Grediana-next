@@ -52,7 +52,7 @@ export const Projects = () => {
 
   return (
     <section id="projects" className={`section ${styles.projects}`}>
-      <h2>Últimos Trabajos</h2>
+      <h2>Trabalhos mais recentes</h2>
       <div className={styles.filters}>
         <ul>
           {
