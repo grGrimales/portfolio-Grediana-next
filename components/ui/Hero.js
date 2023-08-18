@@ -30,7 +30,7 @@ export const Hero = () => {
 
             <Link href='/#contact'>
               <button type="button" className={styles["cover__btn"]}>
-                Contáctame
+                Contate-me
               </button>
 
             </Link>

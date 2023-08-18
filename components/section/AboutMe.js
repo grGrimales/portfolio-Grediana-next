@@ -22,7 +22,7 @@ export const AboutMe = () => {
           </p> */}
           <p>
 
-            Como desenvolvedor FrontEnd, meu foco está no desenvolvimento e design de aplicativos da web para garantir uma excelente experiência do usuário. Eu sou apaixonado por criar soluções inovadoras e eficientes que atendam às necessidades dos meus clientes.
+            Como desenvolvedora FrontEnd, meu foco está no desenvolvimento e design de aplicativos da web para garantir uma excelente experiência do usuário. Eu sou apaixonada por criar soluções inovadoras e eficientes que atendam às necessidades dos meus clientes.
             Se você deseja saber mais sobre o meu trabalho, não hesite em dar uma olhada no meu portfólio!
 
           </p>
