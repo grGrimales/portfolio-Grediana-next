@@ -112,6 +112,15 @@ export const Navbar = () => {
                     duration={500}>PROJETOS</Link>
                 </li>
                 <li >
+                  <Link to='experiences'
+                    onClick={handleClickLink}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}>EXPERIENCES</Link>
+                </li>
+                <li >
                   <Link to='contact'
                     onClick={handleClickLink}
                     activeClass="active"

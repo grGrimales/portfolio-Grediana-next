@@ -1,0 +1,60 @@
+@import "./variables.module.scss";
+@import "./mixins.module.scss";
+.experiences {
+  background-color: $color-principal;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.experiences__content {
+  display: flex;
+  padding: 1rem;
+}
+
+.experiences__data {
+  background-color: $color-terciario;
+  display: flex;
+  flex-direction: column;
+  color: $color-title;
+  border: 3px solid #777777;
+  padding: 30px 40px;
+
+  &:not(:last-child) {
+    margin-right: -3px;
+  }
+
+  &:hover {
+    background-color: $color-complemantary;
+    .experiences__title {
+      color: $color-terciario;
+    }
+    p {
+      color: $color-title;
+    }
+  }
+  span {
+    font-size: 2rem;
+  }
+  .experiences__date {
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+    color: $color-textOpacity;
+  }
+
+  .experiences__title {
+    font-size: 1.8rem;
+    color: $color-title;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  p {
+    color: $color-text-secondary;
+    max-width: 550px;
+    transition: all 0.3s;
+  }
+}

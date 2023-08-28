@@ -11,7 +11,7 @@ export const Services = () => {
             <span><i className="fa-solid fa-laptop-code"></i>
             </span>
 
-            <h3>Desenvolvimento de aplicações Web </h3>.
+            <h3>Desenvolvimento de aplicações Web </h3>
             <p>
               Criação de interfaces gráficas e utilização de várias tecnologias para obter os diferentes
               alcançar os diferentes componentes visuais para um sítio web ou uma aplicação web.

@@ -9,11 +9,11 @@ export const Footer = () => {
       <div className={styles.footer__redes}>
         <div className={styles.redesContainer}>
           <a
-            href='https://www.linkedin.com/in/grediana-rojas/'
+            href='https://www.linkedin.com/in/grediana-rojas-066913262/'
             target="_blank"
             rel={"noreferrer"}><i className="fa-brands fa-linkedin"></i></a>
           <a
-            href='https://api.whatsapp.com/send?phone=+51923929618&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20contactar%20contigo.'
+            href='https://api.whatsapp.com/send?phone=+5548991630333&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20contactar%20contigo.'
             target="_blank"
             rel={"noreferrer"}
           ><i className="fa-brands fa-whatsapp"></i></a>

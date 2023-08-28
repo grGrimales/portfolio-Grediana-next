@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 import { Footer } from "../ui/Footer";
 import { Navbar } from "../ui/Navbar";
-// import { Navbar } from "../ui/Navbar";
 
 export const Layout = ({ children, title = "Decomood", description }) => {
   const [origin, setOrigin] = useState("");
