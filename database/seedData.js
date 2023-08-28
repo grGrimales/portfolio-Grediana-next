@@ -109,8 +109,8 @@ export const initialData = {
             description: "Aplicación creada en React. Conexión a Firebase para manejo de consultas y persistencia de datos, los estilos se crearon con SASS, contiene sistema de login mediante la API de gmail y CRUD de notas mediante peticiones HTTP.",
             technologies: ['React', 'SASS', 'Firebase'],
 
-            linkDemo: "https://grgrimales.github.io/calendar-app/#/login",
-            linkGithub: "https://github.com/grGrimales/calendar-app",
+            linkDemo: "https://grgrimales.github.io/journal-app/#/auth/login",
+            linkGithub: "https://github.com/grGrimales/journal-app",
 
         },
 
