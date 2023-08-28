@@ -6,7 +6,7 @@ export const Experiences = () => {
       date: "Octubre 2022 - Actualmente",
       title: "Desenvolvedor Frontend",
       detail:
-        "No meu papel na Holinsys, especializei-me na gestão e desenvolvimento de aplicações web usando frameworks avançados como Angular e React. Aqui está um resumo das minhas responsabilidades e principais conquistas: *Liderança em Tecnologia, *Versatilidade em Desenvolvimento Front-End, *Foco em Reusabilidade e Design Responsivo *Colaboração Interdisciplinar, *Gestão de Código e Versionamento, *Implantação e Operações, *Comunicação e Planejamento ",
+        "No meu papel na Holinsys, especializei-me na gestão e desenvolvimento de aplicações web usando frameworks avançados como Angular e React. Aqui está um resumo das minhas responsabilidades e principais conquistas: Liderança em Tecnologia, Versatilidade em Desenvolvimento Front-End, Foco em Reusabilidade e Design Responsivo Colaboração Interdisciplinar, Gestão de Código e Versionamento, Implantação e Operações, Comunicação e Planejamento ",
     },
     {
       date: "Agosto 2021 - Septiembre 2022",
