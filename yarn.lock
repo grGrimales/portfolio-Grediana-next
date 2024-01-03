@@ -1039,7 +1039,7 @@
   "resolved" "https://registry.npmjs.org/i18next-fs-backend/-/i18next-fs-backend-2.3.1.tgz"
   "version" "2.3.1"
 
-"i18next@>= 23.2.3", "i18next@>= 23.7.13":
+"i18next@^23.7.15", "i18next@>= 23.2.3", "i18next@>= 23.7.13":
   "integrity" "sha512-WukNgiqkUgU7xSaY8k2B4nXNesD+O8O4ta5g344U5B6Ag7mG61A1EBcDmktFgc4aL447V0cmpjw5l18v58KUfg=="
   "resolved" "https://registry.npmjs.org/i18next/-/i18next-23.7.15.tgz"
   "version" "23.7.15"
@@ -1640,7 +1640,7 @@
   "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.35.0.tgz"
   "version" "7.35.0"
 
-"react-i18next@>= 13.5.0":
+"react-i18next@^14.0.0", "react-i18next@>= 13.5.0":
   "integrity" "sha512-OCrS8rHNAmnr8ggGRDxjakzihrMW7HCbsplduTm3EuuQ6fyvWGT41ksZpqbduYoqJurBmEsEVZ1pILSUWkHZng=="
   "resolved" "https://registry.npmjs.org/react-i18next/-/react-i18next-14.0.0.tgz"
   "version" "14.0.0"
