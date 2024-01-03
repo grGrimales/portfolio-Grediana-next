@@ -1,15 +1,18 @@
+import { useTranslation } from "next-i18next";
 import styles from "../../styles/Formation.module.scss";
 
 export const Formation = () => {
+  const { t } = useTranslation("common");
+
   return (
     <section id="formation" className={`section ${styles.formation}`}>
-      <h2>Estudos</h2>
+      <h2>{t("formationTitle")}</h2>
       <div className={`container ${styles.formation__container}`}>
         <div className={styles.formation__all}>
           <div className={styles.formation__content}>
             <div className={styles.formation__data}>
               <div className={styles.formation__period}>
-                <p>Octubre 2021 - Abril 2022</p>
+                <p>{t("formationMonthsOne")}</p>
               </div>
               <div>
                 <span className={styles.formation__circle}></span>
@@ -36,7 +39,7 @@ export const Formation = () => {
 
             <div className={styles.formation__data}>
               <div className={styles.formation__period}>
-                <p>Junio 2021 - Agosto 2021</p>
+                <p>{t("formationMonthsTwo")}</p>
               </div>
               <div>
                 <span className={styles.formation__circle}></span>
@@ -63,7 +66,7 @@ export const Formation = () => {
 
             <div className={styles.formation__data}>
               <div className={styles.formation__period}>
-                <p>Julio 2022- Septiembre 2022</p>
+                <p>{t("formationMonthsThree")}</p>
               </div>
               <div>
                 <span className={styles.formation__circle}></span>
@@ -91,7 +94,7 @@ export const Formation = () => {
 
             <div className={styles.formation__data}>
               <div className={styles.formation__period}>
-                <p>Agosto 2020 - Octubre 2020</p>
+                <p>{t("formationMonthsFour")}</p>
               </div>
               <div>
                 <span className={styles.formation__circle}></span>

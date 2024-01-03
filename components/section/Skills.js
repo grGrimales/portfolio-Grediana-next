@@ -1,10 +1,13 @@
 import Image from "next/image";
 import styles from '../../styles/Skills.module.scss';
+import { useTranslation } from "next-i18next";
 
 export const Skills = () => {
+  const { t } = useTranslation("common");
+
   return (
     <section id="skills" className={`section ${styles.skills}`}>
-      <h2>Ferramentas</h2>
+      <h2> {t("skillsTitle")}</h2>
       <div className='container'>
         <div className={styles.skills__content}>
 

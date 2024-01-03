@@ -1,9 +1,12 @@
+import { useTranslation } from 'next-i18next';
 import styles from '../../styles/Services.module.scss';
 
 export const Services = () => {
+  const { t } = useTranslation("common");
+
   return (
     <section id="services" className={`section ${styles.services}`}>
-      <h2>Serviços</h2>
+      <h2>{t("servicesTitle")}</h2>
 
       <div className='container'>
         <div className={styles.services__content}>
@@ -11,10 +14,9 @@ export const Services = () => {
             <span><i className="fa-solid fa-laptop-code"></i>
             </span>
 
-            <h3>Desenvolvimento de aplicações Web </h3>
+            <h3>{t("servicesSubtitle")}</h3>
             <p>
-              Criação de interfaces gráficas e utilização de várias tecnologias para obter os diferentes
-              alcançar os diferentes componentes visuais para um sítio web ou uma aplicação web.
+            {t("servicesDescription")}
             </p>
 
           </div>
@@ -23,9 +25,9 @@ export const Services = () => {
             <span><i className="fa-solid fa-tablet-screen-button"></i></span>
 
 
-            <h3> Design de aplicações web</h3>
-            <p>Sites responsivos criados para uma óptima experiência do utilizador.
-              Ao mesmo tempo, garantindo facilidade de uso e simplicidade.
+            <h3> {t("servicesSubtitleTwo")}</h3>
+            <p>
+            {t("servicesDescriptionTwo")}
             </p>
 
           </div>

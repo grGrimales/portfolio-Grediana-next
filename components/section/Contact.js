@@ -5,8 +5,10 @@ import Swal from "sweetalert2";
 import { isEmail } from '../../utils/validation';
 import styles from '../../styles/Contact.module.scss'
 import portfolioApi from "../../api/portfolioApi";
+import { useTranslation } from "next-i18next";
 
 export const Contact = () => {
+    const { t } = useTranslation("common");
 
     const { register, reset, handleSubmit, formState: { errors }, } = useForm();
     const [isDisabled, setIsDisableb] = useState(false)
@@ -44,7 +46,7 @@ export const Contact = () => {
 
         <section id='contact' className={`section ${styles.contact} animate__animated animate__fadeInDown`}>
 
-            <h2>Contacte-me</h2>
+            <h2>{t("contactTitle")}</h2>
 
 
             <div className={`container ${styles.contact__container}`}>
@@ -56,7 +58,7 @@ export const Contact = () => {
                     <a href='tel:+5548991630333'><i className="fa-solid fa-phone"></i> 48991630333</a>
 
                     <div className={styles.contact__redes}>
-                        <h3>Seguir-me</h3>
+                        <h3>{t("contactRedes")}</h3>
                         <div className={styles.redesContainer}>
                             <a
                                 href='https://www.linkedin.com/in/grediana-rojas-066913262/'
@@ -87,13 +89,13 @@ export const Contact = () => {
                     <form
                         onSubmit={handleSubmit(onSubmit)}
                         noValidate>
-                        <label htmlFor='name'>Nome</label>
+                        <label htmlFor='name'>{t("contactForm")}</label>
                         <input
                             type='text'
                             name='name'
-                            placeholder='Introduza o seu nome...'
+                            placeholder={t("contactFormName")}
                             {...register("name", {
-                                required: "*O nome é obrigatório",
+                                required: `${t("contactFormName")}`,
                             })}
                         />
                         <div>
@@ -105,13 +107,13 @@ export const Contact = () => {
                         <div className={styles.inputGroup}>
 
                             <div>
-                                <label htmlFor='phone'>Telefone</label>
+                                <label htmlFor='phone'>{t("contactFormPhone")}</label>
                                 <input
                                     type='text'
                                     name='phone'
-                                    placeholder='Introduza o seu número de telefone'
+                                    placeholder={t("contactFormPhonePlaceholder")}
                                     {...register("phone", {
-                                        required: "*É necessário um telefone",
+                                        required: `${t("contactFormPhoneRequired")}`,
                                     })} />
 
                                 <div>
@@ -123,14 +125,14 @@ export const Contact = () => {
                             <div>
 
 
-                                <label htmlFor='email'>Email</label>
+                                <label htmlFor='email'>{t("contactFormEmail")}</label>
 
                                 <input
                                     type='email'
                                     name='email'
-                                    placeholder='Introduza o seu e-mail'
+                                    placeholder={t("contactFormEmailPlaceholder")}
                                     {...register("email", {
-                                        required: "*O e-mail é obrigatório",
+                                        required: `${t("contactFormEmailRequired")}`,
                                         validate: isEmail
                                     })} />
 
@@ -145,21 +147,21 @@ export const Contact = () => {
 
                             </div>
                         </div>
-                        <label htmlFor='message'>Mensagem</label>
+                        <label htmlFor='message'>{t("contactFormMessage")}</label>
 
                         <textarea
                             name="message"
                             rows="10"
                             cols="50"
                             {...register("message", {
-                                required: "*Mensagem obrigatória",
+                                required: `${t("contactFormMessageRequired")}`,
                             })}
                         >
 
                         </textarea>
                         {<span>{errors.message?.message}</span>}
 
-                        <button type='submit' className={styles.btnForm} disabled={isDisabled} >Enviar</button>
+                        <button type='submit' className={styles.btnForm} disabled={isDisabled} >{t("contactBtn")}</button>
                     </form>
                 </div>
             </div>

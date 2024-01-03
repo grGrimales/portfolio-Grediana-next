@@ -1,7 +1,5 @@
 
 
-
-
 export const initialData = {
 
     projects: [
@@ -11,9 +9,9 @@ export const initialData = {
                 "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664038255/Dise%C3%B1o_sin_t%C3%ADtulo_2_rypl7f.png",
                 "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664038964/Dise%C3%B1o_sin_t%C3%ADtulo_3_l1nfiy.png"
             ],
-            title: "LEARNING ENGLISH",
+            title:  "project1_title",
             category: 'diseño',
-            description: "Wireframe en Figma. Maquetación con Html, bootstrap y SASS de una aplicación de ingles en donde vas a poder reproducir conversaciones de ingles, escoger el número de reproducciones. Además de poder agregar, actualizar o eliminar frases.",
+            description: "project1_description",
             technologies: ['Figma', 'HTML5', 'SASS',],
             linkDemo: "https://grgrimales.github.io/app-learning-english/",
             linkGithub: "https://github.com/grGrimales/app-learning-english",

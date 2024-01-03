@@ -1,10 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 
 import styles from '../../styles/AboutMe.module.scss'
 
 export const AboutMe = () => {
+  const { t } = useTranslation("common");
+
   return (
 
     <section id="aboutMe" className={`section ${styles.aboutMe}`}>
@@ -15,15 +18,9 @@ export const AboutMe = () => {
 
         <div className={styles.aboutMe__description}>
 
-          {/* <p>
-
-            Como desarrollador FrontEnd, me enfoco en el desarrollo y maquetación de aplicaciones web para garantizar una excelente experiencia de usuario. Me apasiona crear soluciones innovadoras y eficientes que satisfagan las necesidades de mis clientes.
-            Si deseas conocer más sobre mi trabajo, ¡no dudes en echar un vistazo a mi portafolio!
-          </p> */}
           <p>
 
-            Como desenvolvedora FrontEnd, meu foco está no desenvolvimento e design de aplicativos da web para garantir uma excelente experiência do usuário. Eu sou apaixonada por criar soluções inovadoras e eficientes que atendam às necessidades dos meus clientes.
-            Se você deseja saber mais sobre o meu trabalho, não hesite em dar uma olhada no meu portfólio!
+          {t("aboutMeDescription")}
 
           </p>
 
@@ -36,7 +33,7 @@ export const AboutMe = () => {
 
             <Link href='/#projects'>
               <button type="button" className={styles.containerBtn__projects}>
-                Projetos
+                {t("aboutMeBtnProjects")}
               </button>
             </Link>
           </div>

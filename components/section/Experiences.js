@@ -1,29 +1,30 @@
+import { useTranslation } from "next-i18next";
 import styles from "../../styles/Experiences.module.scss";
 
 export const Experiences = () => {
+
+  const { t } = useTranslation("common");
+
   const experiences = [
     {
-      date: "Octubre 2022 - Actualmente",
-      title: "Desenvolvedor Frontend",
-      detail:
-        "No meu papel na Holinsys, especializei-me na gestão e desenvolvimento de aplicações web usando frameworks avançados como Angular e React. Aqui está um resumo das minhas responsabilidades e principais conquistas: Liderança em Tecnologia, Versatilidade em Desenvolvimento Front-End, Foco em Reusabilidade e Design Responsivo Colaboração Interdisciplinar, Gestão de Código e Versionamento, Implantação e Operações, Comunicação e Planejamento ",
+      date: t("experience1_date"),
+      title: t("experience1_title"),
+      detail: t("experience1_detail"),
     },
     {
-      date: "Agosto 2021 - Septiembre 2022",
-      title: "Freelance Desenvolvedor Frontend",
-      detail:
-        "Como freelancer, tive a oportunidade de trabalhar em uma série de projetos diversificados que me permitiram aplicar uma ampla gama de tecnologias e metodologias. Trabalhei na criação e manutenção de um E-commerce, implementando tanto o frontend como a integração com APIs",
+      date: t("experience2_date"),
+      title: t("experience2_title"),
+      detail: t("experience2_detail"),
     },
     {
-      date: "Julio 2021 - Agosto 2021",
-      title: "Freelance  Desenvolvedor Frontend",
-      detail:
-        "No meu período como freelancer, tive a oportunidade de trabalhar em uma variedade de projetos que me permitiram explorar diversas tecnologias e métodos de trabalho. Detalho alguns desses projetos: Learn English, Módulo de Agendamento de Eventos, Altamiranda Martinez ",
+      date: t("experience3_date"),
+      title: t("experience3_title"),
+      detail: t("experience3_detail"),
     },
   ];
   return (
     <section id="experiences" className={`section ${styles.experiences}`}>
-      <h2>Experiências de trabalho </h2>
+      <h2> {t("experiencesTitle")}</h2>
 
       <div className="container">
         <div className={styles.experiences__content}>

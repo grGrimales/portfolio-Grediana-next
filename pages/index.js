@@ -9,13 +9,28 @@ import { Contact } from "../components/section/Contact";
 import ScrollToTop from "../components/ui/ScrollToTop";
 import { Experiences } from "../components/section/Experiences";
 
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+    },
+  };
+}
+
 export default function Home() {
+
+
   return (
     <Layout title="Gediana Rojas " description="Frontend Developer">
       <ScrollToTop />
+
       {/* Hero */}
       <section id="hero" className="section">
         <Hero />
+        
+   
       </section>
 
       {/* About me */}
