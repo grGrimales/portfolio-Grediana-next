@@ -39,6 +39,8 @@ export const Modal = ({ modalIsOpen, closeModal, content }) => {
                                                                         : tec === 'Next.js' ? 'fa-thin fa-n'
                                                                             : tec === 'Node.js' ? 'fa-brands fa-node'
                                                                                 : tec === 'Firebase' ? 'fa-brands fa-react'
+                                                                                : tec === 'Semantic UI' ? 'fa-brands fa-react'
+
                                                                                     : ''}`}></i> {tec}</li>
                                     ))
                                 }

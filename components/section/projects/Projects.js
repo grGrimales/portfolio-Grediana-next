@@ -10,7 +10,6 @@ import { useTranslation } from "next-i18next";
 export const Projects = () => {
   const { t } = useTranslation("common");
 
-
    const projectsList = [
         {
 
@@ -26,6 +25,20 @@ export const Projects = () => {
             linkGithub: "https://github.com/grGrimales/app-learning-english",
 
         },
+        {
+
+          images: [
+              "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705279482/imagenes-paginas/gaming_tv8qd7.png",
+              "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705280050/imagenes-paginas/gaming_h7ggoe.png"
+          ],
+          title:  t("projectGamingTitle"),
+          category: 'next',
+          description: t("projectGamingDescription"),
+          technologies: ['Next.js', 'HTML5', 'SASS', 'Semantic UI'],
+          linkDemo: "https://ecommerce-gamig.vercel.app/",
+          linkGithub: "https://github.com/grGrimales/ecommerce-gamig",
+
+      },
         // {
 
         //     images: [

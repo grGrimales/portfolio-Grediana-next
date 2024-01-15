@@ -71,7 +71,9 @@
     "projectPokeTitle": "POKEMON APP",
     "projectPokeDescription": "Aplicación construida con Static Generated gracias a Next.js, los estilos se diseñaron con Next UI y la información se maneja mediante el Poke Api.",
     "projectTiendaTitle": "TIENDA DE MUEBLES",
-    "projectTiendaDescription": "Tienda de muebles, con seis secciones cada una de ellas adaptadas a diferentes dispositivos con responsive mobile first."
+    "projectTiendaDescription": "Tienda de muebles, con seis secciones cada una de ellas adaptadas a diferentes dispositivos con responsive mobile first.",
+    "projectGamingTitle": "GAMING",
+    "projectGamingDescription": "E-COMMERCE de videojuegos usando Next JS, Strapi y Stripe. Con sistema de autenticación. sistema de compra integrando una pasarela de pago como es Stripe lo que permite  realizar compras reales."
 
 
 
