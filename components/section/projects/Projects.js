@@ -53,21 +53,21 @@ export const Projects = () => {
         //     linkGithub: "https://github.com/grGrimales/teslo-shop",
 
         // },
-        {
+        // {
 
-            images: [
-                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664052534/decomood_qmor50.png",
-                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664055695/decomood_2_rdhawd.png"
-            ],
-            title: t("projectDecomoodTitle"),
-            category: 'next',
+        //     images: [
+        //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664052534/decomood_qmor50.png",
+        //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1664055695/decomood_2_rdhawd.png"
+        //     ],
+        //     title: t("projectDecomoodTitle"),
+        //     category: 'next',
 
-            technologies: ['SASS', 'Next.js', 'Figma'],
-            description: t("projectDecomoodDescription"),
-            linkDemo: "https://decomood.com.ar/",
-            linkGithub: "https://github.com/decomoodok/decomood.git",
+        //     technologies: ['SASS', 'Next.js', 'Figma'],
+        //     description: t("projectDecomoodDescription"),
+        //     linkDemo: "https://decomood.com.ar/",
+        //     linkGithub: "https://github.com/decomoodok/decomood.git",
 
-        },
+        // },
         {
 
             images: [
@@ -79,7 +79,7 @@ export const Projects = () => {
             description:  t("projectAltosSellosDescription"),
             technologies: ['SASS', 'Next.js', 'Figma'],
 
-            linkDemo: "https://altosellos.com.ar/",
+            linkDemo: "https://alto-sellos-next.vercel.app/",
             linkGithub: "https://github.com/grGrimales/alto-sellos-next",
 
         },
