@@ -51,7 +51,7 @@
     "projectLearnTitle": "LEARNING ENGLISH",
     "projectLearnDescription": "Wireframe en Figma. Maquetación con Html, bootstrap y SASS de una aplicación de ingles en donde vas a poder reproducir conversaciones de ingles, escoger el número de reproducciones. Además de poder agregar, actualizar o eliminar frases.",
     "projectTesloTitle": "TESLOSHOP",
-    "projectTesloDescription": "Desarrollo de E-COMMERCE en Next.js, contiene  un dashboard con sistema de login  para cliente y Admin con Crud de productos. Además de visualizar las ordenes de compra y ver su estad;  el usuario admin puede cambiar los permisos a usuarios para que sean admin. Cuenta con una pasarela de pago Paypal. El diseño fue creado con Material UI y CSS",
+    "projectTesloDescription": "Desarrollo de E-COMMERCE en Next.js, contiene  un dashboard con sistema de login  para cliente y Admin con Crud de productos. Además de visualizar las ordenes de compra y ver su estado;  el usuario admin puede cambiar los permisos a usuarios para que sean admin. Cuenta con una pasarela de pago Paypal. El diseño fue creado con Tailwind CSS y CSS",
     "projectDecomoodTitle": "DECOMOOD",
     "projectDecomoodDescription": "Desarrollo de E-COMMERCE en Next.js, contiene  un dashboard con sistema de login  para cliente y Admin con Crud de productos. Además de visualizar las ordenes de compra y ver su estado;  el usuario admin puede cambiar los permisos a usuarios para que sean admin. Cuenta con una pasarela de pago Paypal. El diseño fue creado con Material UI y CSS",
     "projectAltosSellosTitle": "ALTOS SELLOS",

@@ -5,14 +5,10 @@ import styles from "./ProjectSlideShow.module.css";
 
 
 export const ProjectSlideShow = ({ images }) => {
-
   
   return (
 
     <>
-    
-    
-    
 
     <Slide easing="ease" duration={7000}  arrows={false} indicators >
       {images?.map((image) => {

@@ -25,34 +25,34 @@ export const Projects = () => {
             linkGithub: "https://github.com/grGrimales/app-learning-english",
 
         },
-        {
+      //   {
 
-          images: [
-              "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705279482/imagenes-paginas/gaming_tv8qd7.png",
-              "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705280050/imagenes-paginas/gaming_h7ggoe.png"
-          ],
-          title:  t("projectGamingTitle"),
-          category: 'next',
-          description: t("projectGamingDescription"),
-          technologies: ['Next.js', 'HTML5', 'SASS', 'Semantic UI'],
-          linkDemo: "https://ecommerce-gamig.vercel.app/",
-          linkGithub: "https://github.com/grGrimales/ecommerce-gamig",
+      //     images: [
+      //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705279482/imagenes-paginas/gaming_tv8qd7.png",
+      //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1705280050/imagenes-paginas/gaming_h7ggoe.png"
+      //     ],
+      //     title:  t("projectGamingTitle"),
+      //     category: 'next',
+      //     description: t("projectGamingDescription"),
+      //     technologies: ['Next.js', 'HTML5', 'SASS', 'Semantic UI'],
+      //     linkDemo: "https://ecommerce-gamig.vercel.app/",
+      //     linkGithub: "https://github.com/grGrimales/ecommerce-gamig",
 
-      },
-        // {
+      // },
+         {
 
-        //     images: [
-        //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1665526797/tesloShop_2_karwx1.png",
-        //         "https://res.cloudinary.com/dcxto1nnl/image/upload/v1665525522/tesloShop_1_bhpouz.png"
-        //     ],
-        //     title: t("projectTesloTitle"),
-        //     category: 'next',
-        //     description: t("projectTesloDescription"),
-        //     technologies:['Next.js', 'CSS'],
-        //     linkDemo: "https://teslo-shop-grediana.herokuapp.com/",
-        //     linkGithub: "https://github.com/grGrimales/teslo-shop",
+            images: [
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1716404763/teslo-shop/teslo-shop-destok_gmxwvx.png",
+                "https://res.cloudinary.com/dcxto1nnl/image/upload/v1716404241/teslo-shop/teslo-shop_1_gzh1kj.png"
+            ],
+            title: t("projectTesloTitle"),
+            category: 'next',
+            description: t("projectTesloDescription"),
+            technologies:['Next.js', 'CSS', 'Tailwind CSS'],
+            linkDemo: "https://teslo-shop-next-store.vercel.app/gender/men",
+            linkGithub: "https://github.com/grGrimales/teslo-shop-v2",
 
-        // },
+       },
         // {
 
         //     images: [
