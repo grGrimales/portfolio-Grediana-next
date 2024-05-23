@@ -73,7 +73,9 @@
     "projectTiendaTitle": "TIENDA DE MUEBLES",
     "projectTiendaDescription": "Tienda de muebles, con seis secciones cada una de ellas adaptadas a diferentes dispositivos con responsive mobile first.",
     "projectGamingTitle": "GAMING",
-    "projectGamingDescription": "E-COMMERCE de videojuegos usando Next JS, Strapi y Stripe. Con sistema de autenticación. sistema de compra integrando una pasarela de pago como es Stripe lo que permite  realizar compras reales."
+    "projectGamingDescription": "E-COMMERCE de videojuegos usando Next JS, Strapi y Stripe. Con sistema de autenticación. sistema de compra integrando una pasarela de pago como es Stripe lo que permite  realizar compras reales.",
+    "projectFirefoxTitle": "REPLICA FIREFOX",
+    "projectFirefoxDescription": "Replica de la página de inicio de Firefox, con Html y Tailwind Css, adaptada a diferentes dispositivos con responsive mobile first."
 
 
 

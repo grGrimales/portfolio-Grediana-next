@@ -74,7 +74,9 @@
      "projectTiendaTitle": "LOJA DE MÓVEIS",
      "projectTiendaDescription": "Loja de móveis, com seis seções cada uma adaptada a diferentes dispositivos com mobile first.",
      "projectGamingTitle": "GAMING",
-    "projectGamingDescription": "Loja online de videogames usando Next JS, Strapi e Stripe. Com sistema de autenticação e sistema de compra integrando um gateway de pagamento como o Stripe, que permite realizar compras reais"
+    "projectGamingDescription": "Loja online de videogames usando Next JS, Strapi e Stripe. Com sistema de autenticação e sistema de compra integrando um gateway de pagamento como o Stripe, que permite realizar compras reais",
+    "projectFirefoxTitle": "REPLICA FIREFOX",
+    "projectFirefoxDescription": "Replicação do site da Mozilla Firefox, com Html e Tailwind Css. O site é responsivo e adaptado para diferentes dispositivos."
 
 
 

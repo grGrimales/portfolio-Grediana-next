@@ -53,6 +53,20 @@ export const Projects = () => {
             linkGithub: "https://github.com/grGrimales/teslo-shop-v2",
 
        },
+       {
+
+        images: [
+            "https://res.cloudinary.com/dcxto1nnl/image/upload/v1716474592/teslo-shop/firefox-destok_p2ojbh.png",
+            "https://res.cloudinary.com/dcxto1nnl/image/upload/v1716474308/teslo-shop/firefox_tlmxuy.png"
+        ],
+        title: t("projectFirefoxTitle"),
+        category: 'next',
+        description: t("projectFirefoxDescription"),
+        technologies:['CSS', 'Tailwind CSS'],
+        linkDemo: "https://grgrimales.github.io/replica_firefox/",
+        linkGithub: "https://github.com/grGrimales/replica_firefox",
+
+   },
         // {
 
         //     images: [
